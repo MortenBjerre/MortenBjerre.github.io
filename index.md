@@ -43,3 +43,4 @@ So for all three graphs we work on the GC, which we have visualized below:
 ## Analysis
 The first analysis performed on our data, was determining the degree distributions for each of the three networks.
 
+![image](degree_distribution.JPG)
