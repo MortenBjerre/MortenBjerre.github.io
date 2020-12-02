@@ -1,8 +1,6 @@
 # Project B
 This is the webpage showing the most important and interesting points in our analysis of the Netflix universe. The explainer notebook can be found ...
 
-We will take a deep dive into the world of Netflix and try to investigate why it sometimes seems 
-
 ## Motivation
 
 We've chosen a Kaggle dataset called ['Netflix Movies and TV Shows'](https://www.kaggle.com/shivamb/netflix-shows). It's a dataset containing the tv shows and movies available on Netflix as of 2019 and is obtained from [Flixable](https://flixable.com/).
