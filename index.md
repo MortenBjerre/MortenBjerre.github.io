@@ -32,7 +32,13 @@ The projection that uses actors as nodes contains a total of 27405 and has 19955
 
 The second projection, using movies as nodes, has 5664 nodes with 39581 edges. This projection creates a graph where movies are nodes and there are edges between movies if they share a cast member. The corresponding largest GCC has 4739 nodes and 39249 edges and there is quite a large difference in between the number of nodes in the GCC compared to the remaining subgraphs in the network. This is due to some subgraphs being documentaries or similar where the cast only appear in that movie or series. For instance, the second largest connected component are all the nature documentaries with one cast member: David Attenborough. The fourth largest connected component is a series of music documentaries starring music legends. This explains why our movie projection is not fully connected as we have cast members appear in only a few movies. We therefore also choose to work on the GCC in this network. 
 
-So for all three graphs we work on the GCC.
+So for all three graphs we work on the GC, which we have visualized below:
+
+*bipartite*
+
+*proj1*
+
+*proj2*
 
 ## Analysis
 The first analysis performed on our data, was determining the degree distributions for each of the three networks.
