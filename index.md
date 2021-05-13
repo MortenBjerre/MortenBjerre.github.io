@@ -1,7 +1,4 @@
 #HELLO
 
 Hejsa jeg hedder Morten!
-
-sdfg
-
-{% include TimeSlider.html %}
+Hvad FUCK SKER DER MAN?
