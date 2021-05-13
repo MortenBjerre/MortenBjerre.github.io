@@ -45,4 +45,4 @@ The first analysis performed on our data, was determining the degree distributio
 
 ![image](degree_distribution.JPG)
 
-![html](TimeSlider.html)
+{% include TimeSlider.html %}
