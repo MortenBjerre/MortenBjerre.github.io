@@ -1,1 +1,3 @@
-# MortenBjerre.github.io
+# Page
+
+[Tryk her!](https://mortenbjerre.github.io/).
