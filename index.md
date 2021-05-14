@@ -176,7 +176,7 @@ Choropleth showing the majority ethnicity of each tract of land. The data is bas
 <!-- Google embed ends -->
 </div>
 
-Interestingly, there is a block of Asians in the high performing zip codes of the west, but also a block of Asians in the lower performing zip codes in the south. This can maybe be explained by one group of Asians moving to a more expensive area of the city (by income) for the schools, while another group moves to a cheaper area as it is all they can afford. 
+Interestingly, there is a block of Asians in the high performing zip codes of the west, but also a block of Asians in the lower performing zip codes in the south. This can maybe be explained by one group of Asians moving to a more expensive area of the city (by income) for the schools, while another group moves to a cheaper area as it is all they can afford. This however, indicates that there isn't any strong connection in whether Asians are the majority ethnicity of an area and the school. 
 
 There is also an "enclave" of asians in the north-east, around the area of China town, which makes sense. 
 
@@ -184,4 +184,9 @@ The dock area in the south-east, which has the worst schools, also has majority 
 
 There are very small, disconnected areas with majority Hispanic, and therefore not much can be gleaned from that. It may be that Hispanic populations mostly live in areas that are majority made up of other races. 
 
-Lastly, the white population seems to live both in the high and low income areas of the city, as well as both the areas with better and worse schools. 
+Lastly, the white population seems to live both in the high and low income areas of the city, as well as both the areas with better and worse schools. There is no connection to school performance here, at least from the data we have. 
+
+
+# Conclusion
+
+While there is a general connection between income of an area and the performance of schools in the area, there is a somewhat weaker connection between school performance and race. There is, however, a real divide between the north-west and the south-east of the city, which is only more marked when looking at the top and bottom students. 
