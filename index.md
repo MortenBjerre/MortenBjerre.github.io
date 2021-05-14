@@ -9,7 +9,7 @@ NOTE: If mousing over doesn't work, try a different browser or incognito mode.
 
 # Introduction
 
-Our goal is to find any patterns in the school performances in San Francisco, and to see if there are any connections in these patterns with socio-economic factors. To make sure we have an unbiased, universal metric of school performances, we turn to the CAASPP, the standardized testing program for California. The variable we are examining there is the Mean Scale Score (MSS). 
+Our goal is to find any patterns in the school performances in San Francisco, and to see if there are any connections in these patterns with socio-economic factors. To make sure we have an unbiased, universal metric of school performances, we turn to the CAASPP, the standardized testing program for California. The variable we are examining there is the Mean Scale Score (MSS). As the CAASPP is relatively new, there is only data from 2015-2019, with no data from 2020 due to the pandemic. 
 
 ## What does Mean Scale Score mean?
 
@@ -17,7 +17,7 @@ The Scale Score is the score a student achieved on the exam. Contrary to a raw s
 
 ## Standards
 
-The CAASPP has a standard, which all students should be meeting. There are five categories in relation to this standard, from highest to lowest: 
+The CAASPP has a standard, which all students should be meeting. There are four categories in relation to this standard, from highest to lowest: 
 - Standard exceeded
 - Standard met
 - Standard nearly met
@@ -37,7 +37,7 @@ Look at the map below, and see what schools are included in this data analysis.
 
 First, we will take a look at how the MSS looks like for all of San Francisco in general. 
 
-[INSERT LINE PLOT HERE]
+[!image](/images/summary.png)
 
 
 
@@ -54,6 +54,16 @@ Mouse over the zip codes to see the Mean Scale Score and the zip code.
 <!-- Google embed ends -->
 </div>
 It is easy to see a general east/west and north/west divide. 
+
+Additionally, when looking at the average scores of the individual scores, we get the following. Click on the dots to see the MSS and school name. 
+
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/dot_all.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+Here, the divide is again rather strong, as the south-eastern half of the city has very few schools better than any in the north-western half. 
 
 
 # Looking at Scores by zip code over the years
@@ -158,7 +168,7 @@ Additionally, in general, the income increases drastically in the city, likely d
 
 ## Ethnicity
 
-Choropleth showing the majority ethnicity of each tract of land. Mouse over to see the tract name and the majority ethnicity. 
+Choropleth showing the majority ethnicity of each tract of land. The data is based on the census of 2010. Mouse over to see the tract name and the majority ethnicity. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
