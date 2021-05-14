@@ -1,15 +1,15 @@
-# Analyzing Standardized Testing Scores of Schools in San Francisco test 1
+# Analyzing Standardized Testing Scores of Schools in San Francisco
 
 In our research of San Francisco (SF) school performances, we are getting our data from [CAASPP](https://caaspp-elpac.cde.ca.gov/caaspp/ResearchFileList?ps=true&lstTestYear=2019&lstTestType=B&lstCounty=00&lstDistrict=00000&lstSchool=0000000), which is the standardized testing program for the state of California.
 
-The explainer notebook can be found [here](https://colab.research.google.com/drive/1nTUUG7OzbG3ZU3RtGFZ67-_bXx0zW2Cw?usp=sharing)
+The explainer notebook can be found [here](https://colab.research.google.com/drive/1nTUUG7OzbG3ZU3RtGFZ67-_bXx0zW2Cw?usp=sharing).
 
-NOTE: If mousing over doesn't work, try a different browser or incognito mode. 
+NOTE: If mousing over/hovering doesn't work, try a different browser or incognito mode. 
 
 
 # Introduction
 
-Our goal is to find any patterns in the school performances in San Francisco, and to see if there are any connections in these patterns with socio-economic factors. To make sure we have an unbiased, universal metric of school performances, we turn to the CAASPP, the standardized testing program for California. The variable we are examining there is the Mean Scale Score (MSS). As the CAASPP is relatively new, there is only data from 2015-2019, with no data from 2020 due to the pandemic. 
+Our goal is to explore the SF school data and to see if the patterns in the school performances are in connection with some specific socio-economic factors. To make sure we have an unbiased, universal metric of school performances, we turn to the CAASPP, the standardized testing program for California. The variable we are examining there is the Mean Scale Score (MSS). As the CAASPP is relatively new, there is only data from 2015-2019, with no data from 2020 due to the pandemic. 
 
 ## What does Mean Scale Score mean?
 
@@ -22,6 +22,18 @@ The CAASPP has a standard, which all students should be meeting. There are four 
 - Standard met
 - Standard nearly met
 - Standard not met 
+
+## Short about the data
+
+The CAASPP dataset of school scores consist of 510,665 rows and 42 columns. After filtering to just the schools of SF we are left with  3236 rows. There are 125 different schools in the data set.
+
+In addition to the above data set, we have the following data set:
+- A map of school location found [here](https://data.sfgov.org/Economy-and-Community/Map-of-Schools/qb37-w9se).
+- A map of zip codes to bin the data, which is found [here](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Bay-Area-ZIP-Codes/u5j3-svi6).
+- SF is not only divided into zip codes but also *tracts*. This is a more finegrained division of SF, which we find from [here](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2010-Tracts-for-San-Francisco/rarb-5ahf) and [here](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2000-Tracts-for-San-Francisco-no-water-/xx87-44s6). We use the newest tract data, which fits with other data sets, but we use the old for the shape of a three tracts as their shape goes into the water. 
+- Crime data from 2013 to 2018 found [here](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry) and from 2018 up until present found [here](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783).
+- Income data of SF. The income data is found [here](https://datausa.io/profile/geo/san-francisco-ca#economy) and is measured as the median household income for each tract.
+- Ethnicity demographics by track, which was found [here](https://data.census.gov/cedsci/table?t=-00%20-%20All%20available%20races%3ARace%20and%20Ethnicity&g=0400000US06.140000_0500000US06075.140000&tid=DECENNIALSF22010.PCT42).
 
 ## School locations
 
@@ -37,14 +49,11 @@ Look at the map below, and see what schools are included in this data analysis.
 
 First, we will take a look at how the MSS looks like for all of San Francisco in general. 
 
-[!image](/images/summary.png)
+![image](/images/summary.png)
 
+There is a general upwards trend of the MSS over time for San Francisco. When looking at the standards, we can see that this is mostly due to a general reduction in students in the "met" and "not met" standards, and a general increase in students in the top 2 categories. However, the percentage of students who have not met the standard, i.e. the lowest category, increased only until 2017, after which it went back up to its 2015 levels. 
 
-
-
-There is a general upwards trend of the MSS over time for San Francisco. When looking at the standards, we can see that this is mostly due to a general reduction in students in the "met" and "not met" standards, and a general increase in students in the top 2 categories. However, the percentage of students who have not met the standard, i.e. the lowest category, went only until 2017, after which it went back up to its 2015 levels. 
-
-Additionally, a choropleth of the Mean Scale Scores of each zip code is shown below. Each dot represents a school, which can be clicked on to find the specific school. 
+Below you will find a choropleth of the Mean Scale Scores for each zip code from 2015-2019. 
 
 Mouse over the zip codes to see the Mean Scale Score and the zip code. 
 
@@ -53,9 +62,10 @@ Mouse over the zip codes to see the Mean Scale Score and the zip code.
   <iframe src="/images/MSS_all_years.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
-It is easy to see a general east/west and north/west divide. 
 
-Additionally, when looking at the average scores of the individual scores, we get the following. Click on the dots to see the MSS and school name. 
+It is easy to see a general east/west and north/west divide. It seems clear that the west side of SF performs better than east side. 
+
+Additionally, when looking at the average scores of the individual schools, we get the following. Click on the dots to see the MSS and school name. The size of a school's dot is relative to its MSS. Color has also been added to show the MSS, where yellow and red are low and high scores, respectively. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -63,7 +73,7 @@ Additionally, when looking at the average scores of the individual scores, we ge
 <!-- Google embed ends -->
 </div>
 
-Here, the divide is again rather strong, as the south-eastern half of the city has very few schools better than any in the north-western half. 
+Here, the divide is again rather strong, as the south-eastern half of the city has very few schools better than any in the north-western half. For all the following time sliding choropleths, the date only represents the full year and not a specific date. Therefore, the month and day can be ignored.
 
 
 # Looking at Scores by zip code over the years
