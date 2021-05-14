@@ -6,7 +6,7 @@ In our research of San Francisco (SF) school performances, we are getting our da
 
 The Scale Score is the score a student achieved on the exam. Contrary to a raw score, the Scale Score takes into account differences in difficulty of the exam from year to year, as well as giving a higher score for answering more difficult, discriminating questions correctly, as explained [here](https://www.caaspp.org/rsc/pdfs/CAASPP.post-test_guide.2018-19.pdf) from the Department of Education for the State of California.
 
-<iframe src="/images/TimeSlider.html" style="border:none;height:700px;width:650px;"/>
+<iframe src="/images/TimeSlider.html" style="border:none;height:700px;width:650px;"/></iframe>
 
 ## testing
 
