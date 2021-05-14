@@ -32,8 +32,11 @@ There is a general upwards trend of the MSS over time for San Francisco. When lo
 
 Additionally, a choropleth of the Mean Scale Scores of each zip code is shown below. 
 
-[insert simple choropleth here]
-
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/MSS_all_years.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
 It is easy to see a general east/west and north/west divide. 
 
 
