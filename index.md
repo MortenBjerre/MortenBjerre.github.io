@@ -8,7 +8,13 @@ The Scale Score is the score a student achieved on the exam. Contrary to a raw s
 
 Something...
 
-<iframe src="/images/TimeSlider.html" style="border:none;height:700px;width:650px;"/></iframe>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/TimeSlider.html" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+
 
 ## testing
 
