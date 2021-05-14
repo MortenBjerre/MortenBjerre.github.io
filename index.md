@@ -63,6 +63,9 @@ It seems that some of the zip codes have improvements from 2015 to 2019, whereas
 Next, we will examine the percent of students at the different standard levels. 
 
 ### Standard exceeded
+
+Time sliding choropleth showing percentage of students exceeding the standards. 
+
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/TimeSlider_per_exceeded.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -72,6 +75,9 @@ Next, we will examine the percent of students at the different standard levels.
 Here, the divide is much more stark than the Mean Scale Score would indicate. As of 2019, while most of the western/northern zip codes have more than 33% of students exceeding the standards, the eastern/southern zip codes have typically under 17%, a more than two-fold difference. 
 
 ### Standard met
+
+Time sliding choropleth showing percentage of students meeting the standards. 
+
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/TimeSlider_per_met.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -81,6 +87,9 @@ Here, the divide is much more stark than the Mean Scale Score would indicate. As
 While the divide is still visible, it is not nearly as strong as it is with the Standard exceeded students. 
 
 ### Standard nearly met
+
+Time sliding choropleth showing percentage of students nearly meeting the standards. 
+
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/TimeSlider_per_nearly.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -90,6 +99,9 @@ While the divide is still visible, it is not nearly as strong as it is with the 
 Here again, while the divide is visible, it is not extreme. 
 
 ### Standard not met
+
+Time sliding choropleth showing percentage of students not meeting the standards. 
+
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/TimeSlider_per_not.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -99,8 +111,7 @@ Here again, while the divide is visible, it is not extreme.
 This one is interesting, as there is only one school performing extremely poorly in this metric, Life Learning Academy Charter on Treasure Island. Upon further research, it seems this school is especially for the disadvantaged and those who have had difficulty in school, which explains the abysmal performance on the CAASPP. 
 
 ### Standard met and above
-
-Remember that this is a combination of exceed and met. 
+Time sliding choropleth showing percentage of students meeting or exceeding the standards. Remember that this is a combination of exceed and met. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -117,6 +128,8 @@ Now that we have had a look at the performances of the schools, we can examine t
 
 ## Income
 
+Time sliding choropleth showing income of different 'tracts' (an area of land used by the US Census) from 2015-2019. 
+
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/IncomeSlider.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -130,6 +143,8 @@ However, over time, we see that the western block becomes richer over time, perh
 Additionally, in general, the income increases drastically in the city, likely due to gentrification pushing out poorer people. 
 
 ## Ethnicity
+
+Choropleth showing the majority ethnicity of each tract of land. 
 
 In the legend, values of:
 - 1-1.5 corresponds to white
