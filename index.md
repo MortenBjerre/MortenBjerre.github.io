@@ -81,7 +81,7 @@ Additionally, when looking at the average scores of the individual schools, we g
 
 Here, the divide is again rather strong, as the south-eastern half of the city has very few schools better than any in the north-western half. For all the following time sliding choropleths, the date only represents the full year and not a specific date. Therefore, the month and day can be ignored.
 
-To same visualization but over time is shown below.
+To same visualization, but over time, is shown below. Press play to see the *action*.
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
