@@ -44,11 +44,56 @@ It is easy to see a general east/west and north/west divide.
 
 Next, we look at the scores by the zip code over the years in the choropleth, to see if there are any large changes from year to year. 
 
+## Mean Scale Score
+
+First, we look at the Mean Scale Score. 
+
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/TimeSliderMSS.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
 
+It seems that some of the zip codes have improvements from 2015 to 2019, whereas some zip codes remain the same. 
 
+## Standards
 
+Next, we will examine the percent of students at the different standard levels. 
+
+### Standard exceeded
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/TimeSlider_per_exceeded.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+### Standard met
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/TimeSlider_per_met.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+### Standard nearly met
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/TimeSlider_per_nearly.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+### Standard not met
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/TimeSlider_per_not.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+### Standard met and above
+
+Remember that this is a combination of exceed and met. 
+
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/TimeSlider_per_met_above.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
