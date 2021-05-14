@@ -2,6 +2,8 @@
 
 In our research of San Francisco (SF) school performances, we are getting our data from [CAASPP](https://caaspp-elpac.cde.ca.gov/caaspp/ResearchFileList?ps=true&lstTestYear=2019&lstTestType=B&lstCounty=00&lstDistrict=00000&lstSchool=0000000), which is the standardized testing program for the state of California.
 
+The explainer notebook can be found [here](https://colab.research.google.com/drive/1nTUUG7OzbG3ZU3RtGFZ67-_bXx0zW2Cw?usp=sharing)
+
 
 # Introduction
 
