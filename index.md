@@ -200,7 +200,7 @@ Lastly, the white population seems to live both in the high and low income areas
 
 ## Crime
 
-With both crime data sets we were able to group the number of crimes for each tract of SF for the whole of 2015-2019. The time sliding choropleth of the yearly crime counts per tract is shown below.
+With both crime data sets we were able to group the number of crimes for each tract of SF for the whole of 2015-2019. The time sliding choropleth of the yearly crime counts per tract is shown below. For some reason the slider is glitched out on the plot, but the range goes from around 100 crimes per year to upwards of 6,000. The dim yellow represents low crime while the dark red is many crimes.
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
