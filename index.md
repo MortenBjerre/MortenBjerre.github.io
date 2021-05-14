@@ -2,14 +2,14 @@
 
 In our research of San Francisco (SF) school performances, we are getting our data from [CAASPP](https://caaspp-elpac.cde.ca.gov/caaspp/ResearchFileList?ps=true&lstTestYear=2019&lstTestType=B&lstCounty=00&lstDistrict=00000&lstSchool=0000000), which is the standardized testing program for the state of California.
 
-The explainer notebook can be found [here](https://colab.research.google.com/drive/1nTUUG7OzbG3ZU3RtGFZ67-_bXx0zW2Cw?usp=sharing)
+The explainer notebook can be found [here](https://colab.research.google.com/drive/1nTUUG7OzbG3ZU3RtGFZ67-_bXx0zW2Cw?usp=sharing).
 
-NOTE: If mousing over doesn't work, try a different browser or incognito mode. 
+NOTE: If mousing over/hovering doesn't work, try a different browser or incognito mode. 
 
 
 # Introduction
 
-Our goal is to find any patterns in the school performances in San Francisco, and to see if there are any connections in these patterns with socio-economic factors. To make sure we have an unbiased, universal metric of school performances, we turn to the CAASPP, the standardized testing program for California. The variable we are examining there is the Mean Scale Score (MSS). As the CAASPP is relatively new, there is only data from 2015-2019, with no data from 2020 due to the pandemic. 
+Our goal is to explore the SF school data and to see if the patterns in the school performances are in connection with some specific socio-economic factors. To make sure we have an unbiased, universal metric of school performances, we turn to the CAASPP, the standardized testing program for California. The variable we are examining there is the Mean Scale Score (MSS). As the CAASPP is relatively new, there is only data from 2015-2019, with no data from 2020 due to the pandemic. 
 
 ## What does Mean Scale Score mean?
 
@@ -37,10 +37,7 @@ Look at the map below, and see what schools are included in this data analysis.
 
 First, we will take a look at how the MSS looks like for all of San Francisco in general. 
 
-[!image](/images/summary.png)
-
-
-
+![image](/images/summary.png)
 
 There is a general upwards trend of the MSS over time for San Francisco. When looking at the standards, we can see that this is mostly due to a general reduction in students in the "met" and "not met" standards, and a general increase in students in the top 2 categories. However, the percentage of students who have not met the standard, i.e. the lowest category, went only until 2017, after which it went back up to its 2015 levels. 
 
