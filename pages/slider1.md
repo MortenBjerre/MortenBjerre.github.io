@@ -16,4 +16,3 @@ iframe {height:100%;width:100%}
         <iframe src="/images/TimeSlider.html" frameborder="0"></iframe></td></tr>
 </table>
 </body>
-</html>
