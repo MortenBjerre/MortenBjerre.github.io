@@ -31,7 +31,7 @@ There is a general upwards trend of the MSS over time for San Francisco. When lo
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-  <iframe src="/images/TimeSlider.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="/images/TimeSliderMSS.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
 
