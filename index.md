@@ -53,7 +53,13 @@ First, we will take a look at how the MSS looks like for all of San Francisco in
 
 There is a general upwards trend of the MSS over time for San Francisco. When looking at the standards, we can see that this is mostly due to a general reduction in students in the "met" and "not met" standards, and a general increase in students in the top 2 categories. However, the percentage of students who have not met the standard, i.e. the lowest category, increased only until 2017, after which it went back up to its 2015 levels. 
 
-Below you will find a choropleth of the Mean Scale Scores for each zip code from 2015-2019. 
+The bar plot below visualizes the schools performances divided into zip codes.
+
+![image](/images/zip_code_bar.png)
+
+It is quite clear there is a difference between the MSS and zip codes, with especially one zip code standing out about the rest. 
+
+Below you will find a choropleth also of the Mean Scale Scores for each zip code from 2015-2019. 
 
 Mouse over the zip codes to see the Mean Scale Score and the zip code. 
 
