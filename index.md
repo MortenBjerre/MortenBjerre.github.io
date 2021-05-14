@@ -67,6 +67,8 @@ Next, we will examine the percent of students at the different standard levels.
 <!-- Google embed ends -->
 </div>
 
+Here, the divide is much more stark than the Mean Scale Score would indicate. As of 2019, while most of the western/northern zip codes have more than 33% of students exceeding the standards, the eastern/southern zip codes have typically under 17%, a more than two-fold difference. 
+
 ### Standard met
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -88,6 +90,8 @@ Next, we will examine the percent of students at the different standard levels.
 <!-- Google embed ends -->
 </div>
 
+This one is interesting, as there is only one school performing extremely poorly in this metric, Life Learning Academy Charter on Treasure Island. Upon further research, it seems this school is especially for the disadvantaged and those who have had difficulty in school, which explains the abysmal performance on the CAASPP. 
+
 ### Standard met and above
 
 Remember that this is a combination of exceed and met. 
@@ -95,5 +99,18 @@ Remember that this is a combination of exceed and met.
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/TimeSlider_per_met_above.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+
+# Making connections
+
+Now that we have had a look at the performances of the schools, we can examine the geographical data on socio-economic factors to see if there are any correlations. 
+
+## Income
+
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/IncomeSlider.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
