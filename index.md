@@ -21,6 +21,16 @@ The CAASPP has a standard, which all students should be meeting. There are five 
 - Standard nearly met
 - Standard not met 
 
+## School locations
+
+Look at the map below, and see what schools are included in this data analysis. 
+
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/schools.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
 # Initial overview
 
 First, we will take a look at how the MSS looks like for all of San Francisco in general. 
