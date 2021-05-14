@@ -189,4 +189,4 @@ Lastly, the white population seems to live both in the high and low income areas
 
 # Conclusion
 
-While there is a general connection between income of an area and the performance of schools in the area, there is a somewhat weaker connection between school performance and race. There is, however, a real divide between the north-west and the south-east of the city, which is only more marked when looking at the top and bottom students. 
+While there is a general connection between income of an area and the performance of schools in the area, there is a somewhat weaker connection between school performance and race. There is, however, a real divide between the north-west and the south-east of the city, which is only more marked when looking at the top and bottom students. Crime seems to have no impact on the scores of the schools, though this is likely due to a flawed data set, or that we need to examine a specific subset of crimes. 
