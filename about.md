@@ -1,1 +1,1 @@
-{% includes TimeSlider.html %}
+{% include TimeSlider.html %}
