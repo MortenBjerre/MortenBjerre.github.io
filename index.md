@@ -55,6 +55,14 @@ Mouse over the zip codes to see the Mean Scale Score and the zip code.
 </div>
 It is easy to see a general east/west and north/west divide. 
 
+Additionally, when looking at the average scores of the individual scores, we get the following. Click on the dots to see the MSS and school name. 
+
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/dot_all.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
 
 # Looking at Scores by zip code over the years
 
