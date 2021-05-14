@@ -1,5 +1,5 @@
-# Tester 5
+# Analyzing standardized testing scores of schools in San Francisco
 
-Hejsa jeg hedder Morten!
+
 
 <iframe src="/images/TimeSlider.html" style="border:none;height:700px;width:650px;"/>
