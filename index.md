@@ -17,7 +17,7 @@ The Scale Score is the score a student achieved on the exam. Contrary to a raw s
 
 ## Standards
 
-The CAASPP has a standard, which all students should be meeting. There are five categories in relation to this standard, from highest to lowest: 
+The CAASPP has a standard, which all students should be meeting. There are four categories in relation to this standard, from highest to lowest: 
 - Standard exceeded
 - Standard met
 - Standard nearly met
