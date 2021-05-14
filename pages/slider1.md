@@ -1,1 +1,1 @@
-<iframe src="/images/TimeSlider.html" allow="fullscreen"/>
+<iframe src="/images/TimeSlider.html" width="100%" height="100%"/>
