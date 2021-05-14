@@ -123,10 +123,30 @@ Now that we have had a look at the performances of the schools, we can examine t
 
 Here, we see that the divide is not quite what we might expect based on the school data, of higher income areas being in the same areas as the higher performing zip codes. While there are higher income areas in the northern parts of the city, matching the higher performing schools in that area, there are also some very high income areas in the east, where some of the lowest performing zip codes were. 
 
+However, over time, we see that the western block becomes richer over time, perhaps indicating richer people moving to these zip codes to be closer to these better schools. 
+
+Additionally, in general, the income increases drastically in the city, likely due to gentrification pushing out poorer people. 
+
 ## Ethnicity
+
+In the legend, values of:
+- 1-1.5 corresponds to white
+- 2.0-2.5 corresponds to Asian
+- 3-3.5 corresponds to black
+- 3.5-4 corresponds to Hispanic
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/Ethnicity.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
+
+Interestingly, there is a block of Asians in the high performing zip codes of the west, but also a block of Asians in the lower performing zip codes in the south. This can maybe be explained by one group of Asians moving to a more expensive area of the city (by income) for the schools, while another group moves to a cheaper area as it is all they can afford. 
+
+There is also an "enclave" of asians in the north-east, around the area of China town, which makes sense. 
+
+The dock area in the south-east, which has the worst schools, also has majority black population, which is also a low-income area. It could be that, because that area has a lower income, that the schools aren't able to afford as good teachers and resources, or that the city under-prioritizes this "black" district. 
+
+There are very small, disconnected areas with majority Hispanic, and therefore not much can be gleaned from that. It may be that Hispanic populations mostly live in areas that are majority made up of other races. 
+
+Lastly, the white population seems to live both in the high and low income areas of the city, as well as both the areas with better and worse schools. 
