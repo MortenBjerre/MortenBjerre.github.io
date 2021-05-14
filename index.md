@@ -4,6 +4,8 @@ In our research of San Francisco (SF) school performances, we are getting our da
 
 The explainer notebook can be found [here](https://colab.research.google.com/drive/1nTUUG7OzbG3ZU3RtGFZ67-_bXx0zW2Cw?usp=sharing)
 
+NOTE: If mousing over doesn't work, try a different browser or incognito mode. 
+
 
 # Introduction
 
