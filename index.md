@@ -14,9 +14,7 @@ Something 2...
 <!-- Google embed ends -->
 </div>
 
-
-
-## testing
+## Hello
 
 kan vi se det her?
 
