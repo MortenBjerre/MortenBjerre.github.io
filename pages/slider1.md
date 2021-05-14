@@ -11,7 +11,7 @@ iframe {height:100%;width:100%}
 </head>
 <body>
 <table>
-    <tr><td class="header"><div><h1>Header</h1></div></td></tr>
+    <tr><td class="header"><div><h1>Something</h1></div></td></tr>
     <tr><td class="content">
         <iframe src="/images/TimeSlider.html" frameborder="0"></iframe></td></tr>
 </table>
