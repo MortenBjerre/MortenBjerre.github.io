@@ -1,4 +1,4 @@
-# Tester igen
+# Tester igen 2
 
 Hejsa jeg hedder Morten!
 
@@ -8,4 +8,4 @@ Tester
 
 {% include TimeSlider.html %}
 
-<iframe src="/images/TimeSlider.html" />
+<iframe src="/images/TimeSlider.html" height = 600 width = 600/>
