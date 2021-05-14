@@ -23,6 +23,18 @@ The CAASPP has a standard, which all students should be meeting. There are four 
 - Standard nearly met
 - Standard not met 
 
+## Short about the data
+
+The CAASPP dataset of school scores consist of 510,665 rows and 42 columns. After filtering to just the schools of SF we are left with  3236 rows. There are 125 different schools in the data set.
+
+In addition to the above data set, we have the following data set:
+- A map of school location found [here](https://data.sfgov.org/Economy-and-Community/Map-of-Schools/qb37-w9se).
+- A map of zip codes to bin the data, which is found [here](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Bay-Area-ZIP-Codes/u5j3-svi6).
+- SF is not only divided into zip codes but also *tracts*. This is a more finegrained division of SF, which we find from [here](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2010-Tracts-for-San-Francisco/rarb-5ahf) and [here](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2000-Tracts-for-San-Francisco-no-water-/xx87-44s6). We use the newest tract data, which fits with other data sets, but we use the old for the shape of a three tracts as their shape goes into the water. 
+- Crime data from 2013 to 2018 found [here](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry) and from 2018 up until present found [here](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783).
+- Income data of SF. The income data is found [here](https://datausa.io/profile/geo/san-francisco-ca#economy) and is measured as the median household income for each tract.
+- Ethnicity demographics by track, which was found [here](https://data.census.gov/cedsci/table?t=-00%20-%20All%20available%20races%3ARace%20and%20Ethnicity&g=0400000US06.140000_0500000US06075.140000&tid=DECENNIALSF22010.PCT42).
+
 ## School locations
 
 Look at the map below, and see what schools are included in this data analysis. 
