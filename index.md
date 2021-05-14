@@ -76,12 +76,16 @@ Here, the divide is much more stark than the Mean Scale Score would indicate. As
 <!-- Google embed ends -->
 </div>
 
+While the divide is still visible, it is not nearly as strong as it is with the Standard exceeded students. 
+
 ### Standard nearly met
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/TimeSlider_per_nearly.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
+
+Here again, while the divide is visible, it is not extreme. 
 
 ### Standard not met
 <div class="responsive-wrap">
@@ -102,6 +106,8 @@ Remember that this is a combination of exceed and met.
 <!-- Google embed ends -->
 </div>
 
+Again, the divide is extreme, likely mostly from the standard exceeded group. 
+
 
 # Making connections
 
@@ -112,5 +118,15 @@ Now that we have had a look at the performances of the schools, we can examine t
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/IncomeSlider.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+Here, we see that the divide is not quite what we might expect based on the school data, of higher income areas being in the same areas as the higher performing zip codes. While there are higher income areas in the northern parts of the city, matching the higher performing schools in that area, there are also some very high income areas in the east, where some of the lowest performing zip codes were. 
+
+## Ethnicity
+
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/Ethnicity.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
