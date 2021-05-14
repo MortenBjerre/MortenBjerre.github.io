@@ -9,7 +9,7 @@ NOTE: If mousing over doesn't work, try a different browser or incognito mode.
 
 # Introduction
 
-Our goal is to find any patterns in the school performances in San Francisco, and to see if there are any connections in these patterns with socio-economic factors. To make sure we have an unbiased, universal metric of school performances, we turn to the CAASPP, the standardized testing program for California. The variable we are examining there is the Mean Scale Score (MSS). 
+Our goal is to find any patterns in the school performances in San Francisco, and to see if there are any connections in these patterns with socio-economic factors. To make sure we have an unbiased, universal metric of school performances, we turn to the CAASPP, the standardized testing program for California. The variable we are examining there is the Mean Scale Score (MSS). As the CAASPP is relatively new, there is only data from 2015-2019, with no data from 2020 due to the pandemic. 
 
 ## What does Mean Scale Score mean?
 
@@ -168,7 +168,7 @@ Additionally, in general, the income increases drastically in the city, likely d
 
 ## Ethnicity
 
-Choropleth showing the majority ethnicity of each tract of land. Mouse over to see the tract name and the majority ethnicity. 
+Choropleth showing the majority ethnicity of each tract of land. The data is based on the census of 2010. Mouse over to see the tract name and the majority ethnicity. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
