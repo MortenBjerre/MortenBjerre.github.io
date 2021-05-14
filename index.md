@@ -200,8 +200,16 @@ Lastly, the white population seems to live both in the high and low income areas
 
 ## Crime
 
+With both crime data sets we were able to group the number of crimes for each tract of SF for the whole of 2015-2019. The time sliding choropleth of the yearly crime counts per tract is shown below.
 
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/crimes_slider.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+It quickly becomes apparent that it is hard to tell a whole lot from the figure except a lot of crime is commited in one part of the city. We can see that the areas with high amounts of crime also is the location of some of the worse performing schools when comparing to the Mean Scale Score choropleth. As the remaining areas have a relatively low crime count, we cannot see any other trends. 
 
 # Conclusion
 
-While there seems to be a general connection between income of an area and the performance of schools in that area, there is a somewhat weaker connection between school performance and ethnicity. There is, however, a real divide between the north-west and the south-east of the city, which is only more marked when looking at the top and bottom students. Crime seems to have no impact on the scores of the schools, though this is likely due to a flawed data set, or that we need to examine a specific subset of crimes. 
+While there seems to be a general connection between income of an area and the performance of schools in that area, there is a somewhat weaker connection between school performance and ethnicity. There is, however, a real divide between the north-west and the south-east of the city, which is only more marked when looking at the top and bottom students. Crime is heavily concentrated in one area, which could be why the schools in that area have poor performance. Low crime does not seem to relate to high performance. Further investigation could be done into examining a specific subset of crimes, that could reflect more on the performance such as domestic violence. 
