@@ -37,7 +37,7 @@ Look at the map below, and see what schools are included in this data analysis.
 
 First, we will take a look at how the MSS looks like for all of San Francisco in general. 
 
-[INSERT LINE PLOT HERE]
+[!image](/images/summary.png)
 
 
 
@@ -62,6 +62,8 @@ Additionally, when looking at the average scores of the individual scores, we ge
   <iframe src="/images/dot_all.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
+
+Here, the divide is again rather strong, as the south-eastern half of the city has very few schools better than any in the north-western half. 
 
 
 # Looking at Scores by zip code over the years
