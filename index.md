@@ -98,7 +98,7 @@ Next, we will examine the percent of students at the different standard levels.
 
 ### Standard exceeded
 
-Time sliding choropleth showing percentage of students exceeding the standards. Mouse over to see the zip codes. 
+Below is a time sliding choropleth showing percentage of students exceeding the standards. Mouse over to see the zip codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -110,7 +110,7 @@ Here, the divide is much more stark than the Mean Scale Score would indicate. As
 
 ### Standard met
 
-Time sliding choropleth showing percentage of students meeting the standards. Mouse over to see the zip codes. 
+Time sliding choropleth showing percentage of students meeting the standards.
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -122,7 +122,7 @@ While the divide is still visible, it is not nearly as strong as it is with the 
 
 ### Standard nearly met
 
-Time sliding choropleth showing percentage of students nearly meeting the standards. Mouse over to see the zip codes. 
+Time sliding choropleth showing percentage of students nearly meeting the standards. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -134,7 +134,7 @@ Here again, while the divide is visible, it is not extreme.
 
 ### Standard not met
 
-Time sliding choropleth showing percentage of students not meeting the standards. Mouse over to see the zip codes. 
+Time sliding choropleth showing percentage of students not meeting the standards.
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -142,10 +142,10 @@ Time sliding choropleth showing percentage of students not meeting the standards
 <!-- Google embed ends -->
 </div>
 
-This one is interesting, as there is only one school performing extremely poorly in this metric, Life Learning Academy Charter on Treasure Island. Upon further research, it seems this school is especially for the disadvantaged and those who have had difficulty in school, which explains the abysmal performance on the CAASPP. 
+This one is interesting, as there is only one school performing extremely poorly in this metric, Life Learning Academy Charter on Treasure Island. Upon further research, it turns out that this school is especially for the disadvantaged and those who have had difficulty in school, which explains the abysmal performance on the CAASPP. 
 
 ### Standard met and above
-Time sliding choropleth showing percentage of students meeting or exceeding the standards. Remember that this is a combination of exceed and met. Mouse over to see the zip codes. 
+Time sliding choropleth showing percentage of students meeting or exceeding the standards. Remember that this is a combination of exceed and met.
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -158,11 +158,11 @@ Again, the divide is extreme, likely mostly from the standard exceeded group.
 
 # Making connections
 
-Now that we have had a look at the performances of the schools, we can examine the geographical data on socio-economic factors to see if there are any correlations. Mouse over to see the zip codes. 
+Now that we have had a look at the performances of the schools, we can examine the geographical data on socio-economic factors to see if there are any correlations. 
 
 ## Income
 
-Time sliding choropleth showing income of different 'tracts' (an area of land used by the US Census) from 2015-2019. Mouse over to see the tract codes. 
+With the income data we can visualize how the wealth is distributed across SF. Below is a time sliding choropleth showing income of different 'tracts' (an area of land used by the US Census) from 2013-2018. Note, that the period is slightly different from the school data as it includes 2013-2014 while 2019 is missing. Mouse over to see the tract codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -170,15 +170,17 @@ Time sliding choropleth showing income of different 'tracts' (an area of land us
 <!-- Google embed ends -->
 </div>
 
-Here, we see that the divide is not quite what we might expect based on the school data, of higher income areas being in the same areas as the higher performing zip codes. While there are higher income areas in the northern parts of the city, matching the higher performing schools in that area, there are also some very high income areas in the east, where some of the lowest performing zip codes were. 
+Here, we see that the divide is not quite what we might expect based on the school data, of higher income areas being in the same areas as the higher performing zip codes. While there are higher income areas in the northern parts of the city, matching the higher performing schools in that area, there are also some very high income areas in the east, where some of the worst performing school were located. 
 
-However, over time, we see that the western block becomes richer over time, perhaps indicating richer people moving to these zip codes to be closer to these better schools. 
+However, we see that the western block becomes richer over time, perhaps indicating richer people moving to these zip codes to be closer to these better schools. 
 
-Additionally, in general, the income increases drastically in the city, likely due to gentrification pushing out poorer people. 
+Additionally, the income increases drastically in the city, likely due to gentrification pushing out poorer people. 
 
 ## Ethnicity
 
-Choropleth showing the majority ethnicity of each tract of land. The data is based on the census of 2010. Mouse over to see the tract name and the majority ethnicity. 
+Another socio-economic is the ethnicity of an area. Below is a choropleth showing the majority ethnicity of each tract of land in SF. The data is based on the census of 2010. Although, this is outside our school data's time range, we suspect that there has not been a major change to the overall demographic of SF. 
+
+Mouse over to see the tract name and the majority ethnicity. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -196,7 +198,10 @@ There are very small, disconnected areas with majority Hispanic, and therefore n
 
 Lastly, the white population seems to live both in the high and low income areas of the city, as well as both the areas with better and worse schools. There is no connection to school performance here, at least from the data we have. 
 
+## Crime
+
+
 
 # Conclusion
 
-While there is a general connection between income of an area and the performance of schools in the area, there is a somewhat weaker connection between school performance and race. There is, however, a real divide between the north-west and the south-east of the city, which is only more marked when looking at the top and bottom students. Crime seems to have no impact on the scores of the schools, though this is likely due to a flawed data set, or that we need to examine a specific subset of crimes. 
+While there seems to be a general connection between income of an area and the performance of schools in that area, there is a somewhat weaker connection between school performance and ethnicity. There is, however, a real divide between the north-west and the south-east of the city, which is only more marked when looking at the top and bottom students. Crime seems to have no impact on the scores of the schools, though this is likely due to a flawed data set, or that we need to examine a specific subset of crimes. 
