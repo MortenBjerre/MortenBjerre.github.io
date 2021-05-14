@@ -1,5 +1,5 @@
-# Tester igen 5
+# Tester igen 6
 
 Hejsa jeg hedder Morten!
 
-<iframe src="/images/TimeSlider.html" style="border:none;height:650px;width:650px;"/>
+<iframe src="/images/TimeSlider.html" style="border:none;height:650px;width:680px;"/>
