@@ -15,23 +15,37 @@ The Scale Score is the score a student achieved on the exam. Contrary to a raw s
 
 The CAASPP has a standard, which all students should be meeting. There are five categories in relation to this standard, from highest to lowest: 
 - Standard exceeded
-- Standard met and above
 - Standard met
 - Standard nearly met
 - Standard not met 
 
-# Initial overview of all of San Francisco over all testing years
+# Initial overview
 
 First, we will take a look at how the MSS looks like for all of San Francisco in general. 
 
 [INSERT LINE PLOT HERE]
 
+
+
+
 There is a general upwards trend of the MSS over time for San Francisco. When looking at the standards, we can see that this is mostly due to a general reduction in students in the "met" and "not met" standards, and a general increase in students in the top 2 categories. However, the percentage of students who have not met the standard, i.e. the lowest category, went only until 2017, after which it went back up to its 2015 levels. 
+
+Additionally, a choropleth of the Mean Scale Scores of each zip code is shown below. 
+
+[insert simple choropleth here]
+
+It is easy to see a general east/west and north/west divide. 
+
+
+# Looking at Scores by zip code over the years
+
 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-  <iframe src="/images/TimeSliderMSS.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="/images/TimeSlider.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
+
+
 
