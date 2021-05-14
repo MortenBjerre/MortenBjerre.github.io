@@ -51,9 +51,9 @@ First, we will take a look at how the MSS looks like for all of San Francisco in
 
 ![image](/images/summary.png)
 
-There is a general upwards trend of the MSS over time for San Francisco. When looking at the standards, we can see that this is mostly due to a general reduction in students in the "met" and "not met" standards, and a general increase in students in the top 2 categories. However, the percentage of students who have not met the standard, i.e. the lowest category, went only until 2017, after which it went back up to its 2015 levels. 
+There is a general upwards trend of the MSS over time for San Francisco. When looking at the standards, we can see that this is mostly due to a general reduction in students in the "met" and "not met" standards, and a general increase in students in the top 2 categories. However, the percentage of students who have not met the standard, i.e. the lowest category, increased only until 2017, after which it went back up to its 2015 levels. 
 
-Additionally, a choropleth of the Mean Scale Scores of each zip code is shown below. Each dot represents a school, which can be clicked on to find the specific school. 
+Below you will find a choropleth of the Mean Scale Scores for each zip code from 2015-2019. 
 
 Mouse over the zip codes to see the Mean Scale Score and the zip code. 
 
@@ -62,9 +62,10 @@ Mouse over the zip codes to see the Mean Scale Score and the zip code.
   <iframe src="/images/MSS_all_years.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
-It is easy to see a general east/west and north/west divide. 
 
-Additionally, when looking at the average scores of the individual scores, we get the following. Click on the dots to see the MSS and school name. 
+It is easy to see a general east/west and north/west divide. It seems clear that the west side of SF performs better than east side. 
+
+Additionally, when looking at the average scores of the individual schools, we get the following. Click on the dots to see the MSS and school name. The size of a school's dot is relative to its MSS. Color has also been added to show the MSS, where yellow and red are low and high scores, respectively. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -72,7 +73,7 @@ Additionally, when looking at the average scores of the individual scores, we ge
 <!-- Google embed ends -->
 </div>
 
-Here, the divide is again rather strong, as the south-eastern half of the city has very few schools better than any in the north-western half. 
+Here, the divide is again rather strong, as the south-eastern half of the city has very few schools better than any in the north-western half. For all the following time sliding choropleths, the date only represents the full year and not a specific date. Therefore, the month and day can be ignored.
 
 
 # Looking at Scores by zip code over the years
