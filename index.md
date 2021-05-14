@@ -81,6 +81,14 @@ Additionally, when looking at the average scores of the individual schools, we g
 
 Here, the divide is again rather strong, as the south-eastern half of the city has very few schools better than any in the north-western half. For all the following time sliding choropleths, the date only represents the full year and not a specific date. Therefore, the month and day can be ignored.
 
+To same visualization but over time is shown below.
+
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+  <iframe src="/images/TimeSlider_dot.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
 
 # Looking at Scores by zip code over the years
 
