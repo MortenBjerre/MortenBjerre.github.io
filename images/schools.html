@@ -1,0 +1,4283 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_2cef95e920014fcfb49f4a0dfdc20685 {
+        position: relative;
+        width: 100.0%;
+        height: 600.0px;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_2cef95e920014fcfb49f4a0dfdc20685" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_2cef95e920014fcfb49f4a0dfdc20685 = L.map(
+        'map_2cef95e920014fcfb49f4a0dfdc20685', {
+        center: [37.773, -122.431297],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: false,
+        });
+
+
+    
+    var tile_layer_1f5f8be16ac24e169fda673f68a5a54b = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+    
+            var circle_marker_29054a3533434359a4cc29976247592c = L.circleMarker(
+                [37.719532, -122.396561],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_4bb2251749a24c67bce1dedf827c1ac2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4160a78ec8194793a0bba13338a70799 = $(`<div id="html_4160a78ec8194793a0bba13338a70799" style="width: 100.0%; height: 100.0%;">KIPP BAYVIEW ACADEMY</div>`)[0];
+                popup_4bb2251749a24c67bce1dedf827c1ac2.setContent(html_4160a78ec8194793a0bba13338a70799);
+            
+
+            circle_marker_29054a3533434359a4cc29976247592c.bindPopup(popup_4bb2251749a24c67bce1dedf827c1ac2)
+            ;
+
+            
+        
+    
+            var circle_marker_551c84e308134a18a4e1696c0222ef40 = L.circleMarker(
+                [37.719536, -122.425148],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_8afdb522511648a6bc490e7f819e4b91 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cde4f1b7c1c14e2e812701cbc471e070 = $(`<div id="html_cde4f1b7c1c14e2e812701cbc471e070" style="width: 100.0%; height: 100.0%;">JORDAN (JUNE) SCHOOL FOR EQUITY</div>`)[0];
+                popup_8afdb522511648a6bc490e7f819e4b91.setContent(html_cde4f1b7c1c14e2e812701cbc471e070);
+            
+
+            circle_marker_551c84e308134a18a4e1696c0222ef40.bindPopup(popup_8afdb522511648a6bc490e7f819e4b91)
+            ;
+
+            
+        
+    
+            var circle_marker_2f017969f55a4cebb4825bccd8865c60 = L.circleMarker(
+                [37.718784, -122.424667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_74b6976a76e84783a13dba7b660f20b3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_23fb11bbf267486584e5b94e8ffa1ec2 = $(`<div id="html_23fb11bbf267486584e5b94e8ffa1ec2" style="width: 100.0%; height: 100.0%;">CITY ARTS AND TECH HIGH</div>`)[0];
+                popup_74b6976a76e84783a13dba7b660f20b3.setContent(html_23fb11bbf267486584e5b94e8ffa1ec2);
+            
+
+            circle_marker_2f017969f55a4cebb4825bccd8865c60.bindPopup(popup_74b6976a76e84783a13dba7b660f20b3)
+            ;
+
+            
+        
+    
+            var circle_marker_2ab9ff6cc6ba453f81a9b056a81246c0 = L.circleMarker(
+                [37.739685, -122.481369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_f4eb8198b526488c950270bcbac2df55 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d5ebd95b91334a4d97e4e5f45dc35141 = $(`<div id="html_d5ebd95b91334a4d97e4e5f45dc35141" style="width: 100.0%; height: 100.0%;">FEINSTEIN (DIANNE) ELEMENTARY</div>`)[0];
+                popup_f4eb8198b526488c950270bcbac2df55.setContent(html_d5ebd95b91334a4d97e4e5f45dc35141);
+            
+
+            circle_marker_2ab9ff6cc6ba453f81a9b056a81246c0.bindPopup(popup_f4eb8198b526488c950270bcbac2df55)
+            ;
+
+            
+        
+    
+            var circle_marker_c8813144f82c431295d0ddf17817a21d = L.circleMarker(
+                [37.769829, -122.444275],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_dc32699b65854b3189045332b97fe432 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_80327549b88541bba98426da1b742148 = $(`<div id="html_80327549b88541bba98426da1b742148" style="width: 100.0%; height: 100.0%;">CHINESE IMMERSION SCHOOL AT DEAVILA</div>`)[0];
+                popup_dc32699b65854b3189045332b97fe432.setContent(html_80327549b88541bba98426da1b742148);
+            
+
+            circle_marker_c8813144f82c431295d0ddf17817a21d.bindPopup(popup_dc32699b65854b3189045332b97fe432)
+            ;
+
+            
+        
+    
+            var circle_marker_fa8aeef2e65d4a72bfe186e569f589a3 = L.circleMarker(
+                [37.792866, -122.433601],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_3a84ff4ebc67421a9556ce0623011d08 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b90cd6063a694b07a1e42995bc1b2f63 = $(`<div id="html_b90cd6063a694b07a1e42995bc1b2f63" style="width: 100.0%; height: 100.0%;">SAN FRANCISCO PUBLIC MONTESSORI</div>`)[0];
+                popup_3a84ff4ebc67421a9556ce0623011d08.setContent(html_b90cd6063a694b07a1e42995bc1b2f63);
+            
+
+            circle_marker_fa8aeef2e65d4a72bfe186e569f589a3.bindPopup(popup_3a84ff4ebc67421a9556ce0623011d08)
+            ;
+
+            
+        
+    
+            var circle_marker_d913412ee25849a29ef043d14a17ce3e = L.circleMarker(
+                [37.779419, -122.435921],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_9bdcbd7b4f9946578821bece52e15475 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c6eb9dae12b146b6bb0ed7b22030e6b9 = $(`<div id="html_c6eb9dae12b146b6bb0ed7b22030e6b9" style="width: 100.0%; height: 100.0%;">GATEWAY MIDDLE</div>`)[0];
+                popup_9bdcbd7b4f9946578821bece52e15475.setContent(html_c6eb9dae12b146b6bb0ed7b22030e6b9);
+            
+
+            circle_marker_d913412ee25849a29ef043d14a17ce3e.bindPopup(popup_9bdcbd7b4f9946578821bece52e15475)
+            ;
+
+            
+        
+    
+            var circle_marker_6e764e30ed644ae489c1416460434410 = L.circleMarker(
+                [37.775013, -122.433899],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0e4a14d3ba1d48e49bf1a849b111c179 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6a1063d91ced441980db1e6bf9ced0d0 = $(`<div id="html_6a1063d91ced441980db1e6bf9ced0d0" style="width: 100.0%; height: 100.0%;">WELLS (IDA B.) HIGH</div>`)[0];
+                popup_0e4a14d3ba1d48e49bf1a849b111c179.setContent(html_6a1063d91ced441980db1e6bf9ced0d0);
+            
+
+            circle_marker_6e764e30ed644ae489c1416460434410.bindPopup(popup_0e4a14d3ba1d48e49bf1a849b111c179)
+            ;
+
+            
+        
+    
+            var circle_marker_9df876ed3c434fb38d512f840b6cbc91 = L.circleMarker(
+                [37.761398, -122.403702],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_8ad24a2b79614e02a85623d0f3d6d508 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fdbff1cbca7a4f90a3bd56930e25e1f2 = $(`<div id="html_fdbff1cbca7a4f90a3bd56930e25e1f2" style="width: 100.0%; height: 100.0%;">DOWNTOWN HIGH</div>`)[0];
+                popup_8ad24a2b79614e02a85623d0f3d6d508.setContent(html_fdbff1cbca7a4f90a3bd56930e25e1f2);
+            
+
+            circle_marker_9df876ed3c434fb38d512f840b6cbc91.bindPopup(popup_8ad24a2b79614e02a85623d0f3d6d508)
+            ;
+
+            
+        
+    
+            var circle_marker_bfb28b8a71644a4b84e4136393086ea1 = L.circleMarker(
+                [37.763226, -122.463585],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_f62161cef6cd40478212ccc5fb913c17 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4236780bf3074c82a4f6279ca30a87ed = $(`<div id="html_4236780bf3074c82a4f6279ca30a87ed" style="width: 100.0%; height: 100.0%;">INDEPENDENCE HIGH</div>`)[0];
+                popup_f62161cef6cd40478212ccc5fb913c17.setContent(html_4236780bf3074c82a4f6279ca30a87ed);
+            
+
+            circle_marker_bfb28b8a71644a4b84e4136393086ea1.bindPopup(popup_f62161cef6cd40478212ccc5fb913c17)
+            ;
+
+            
+        
+    
+            var circle_marker_9df03d43accf4451bf1a773658737ea8 = L.circleMarker(
+                [37.780647, -122.445953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_be5d5ce757644a91a3504c1c6adb5086 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c26d042170164c9c9af0df37f2aedbe8 = $(`<div id="html_c26d042170164c9c9af0df37f2aedbe8" style="width: 100.0%; height: 100.0%;">WALLENBERG (RAOUL) TRADITIONAL HIGH</div>`)[0];
+                popup_be5d5ce757644a91a3504c1c6adb5086.setContent(html_c26d042170164c9c9af0df37f2aedbe8);
+            
+
+            circle_marker_9df03d43accf4451bf1a773658737ea8.bindPopup(popup_be5d5ce757644a91a3504c1c6adb5086)
+            ;
+
+            
+        
+    
+            var circle_marker_c9fd45045bb648bf8d06003f1425a451 = L.circleMarker(
+                [37.721546, -122.406555],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0b95b24791354e53b966d09e6b53329d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_72c67ccd48b84d39a39270bdc6233625 = $(`<div id="html_72c67ccd48b84d39a39270bdc6233625" style="width: 100.0%; height: 100.0%;">BURTON (PHILLIP AND SALA) ACADEMIC HIGH</div>`)[0];
+                popup_0b95b24791354e53b966d09e6b53329d.setContent(html_72c67ccd48b84d39a39270bdc6233625);
+            
+
+            circle_marker_c9fd45045bb648bf8d06003f1425a451.bindPopup(popup_0b95b24791354e53b966d09e6b53329d)
+            ;
+
+            
+        
+    
+            var circle_marker_6840b69a9391485db3718213fc371874 = L.circleMarker(
+                [37.721142, -122.441399],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_a403d6485dc3466686e9b329c3758bae = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_df4d510bf219466f87498f0b967c089d = $(`<div id="html_df4d510bf219466f87498f0b967c089d" style="width: 100.0%; height: 100.0%;">BALBOA HIGH</div>`)[0];
+                popup_a403d6485dc3466686e9b329c3758bae.setContent(html_df4d510bf219466f87498f0b967c089d);
+            
+
+            circle_marker_6840b69a9391485db3718213fc371874.bindPopup(popup_a403d6485dc3466686e9b329c3758bae)
+            ;
+
+            
+        
+    
+            var circle_marker_c103e0f1911a46508fb244a036a52907 = L.circleMarker(
+                [37.761704, -122.400688],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_9b0b3d080387483dacc89ef458c88708 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_87e621c386ae4798aef88f564fdf0af1 = $(`<div id="html_87e621c386ae4798aef88f564fdf0af1" style="width: 100.0%; height: 100.0%;">INTERNATIONAL STUDIES ACADEMY</div>`)[0];
+                popup_9b0b3d080387483dacc89ef458c88708.setContent(html_87e621c386ae4798aef88f564fdf0af1);
+            
+
+            circle_marker_c103e0f1911a46508fb244a036a52907.bindPopup(popup_9b0b3d080387483dacc89ef458c88708)
+            ;
+
+            
+        
+    
+            var circle_marker_6c365afc393f4f2293ff79d75ea1066c = L.circleMarker(
+                [37.745316, -122.44883],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_5adca65d8bb1483d8292b03b6acec33a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4980ed3735914573acb70703c4733bc2 = $(`<div id="html_4980ed3735914573acb70703c4733bc2" style="width: 100.0%; height: 100.0%;">ASAWA (RUTH) SAN FRANCISCO SCHOOL OF THE</div>`)[0];
+                popup_5adca65d8bb1483d8292b03b6acec33a.setContent(html_4980ed3735914573acb70703c4733bc2);
+            
+
+            circle_marker_6c365afc393f4f2293ff79d75ea1066c.bindPopup(popup_5adca65d8bb1483d8292b03b6acec33a)
+            ;
+
+            
+        
+    
+            var circle_marker_bbff8aafc4af4491b2ac29907e6fe5c9 = L.circleMarker(
+                [37.736309, -122.401649],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_bcf5374cde28409cab72ba44e3d50ec1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_19f01b5f606c417bbc9ef5d8ccf99ed8 = $(`<div id="html_19f01b5f606c417bbc9ef5d8ccf99ed8" style="width: 100.0%; height: 100.0%;">MARSHALL (THURGOOD) HIGH</div>`)[0];
+                popup_bcf5374cde28409cab72ba44e3d50ec1.setContent(html_19f01b5f606c417bbc9ef5d8ccf99ed8);
+            
+
+            circle_marker_bbff8aafc4af4491b2ac29907e6fe5c9.bindPopup(popup_bcf5374cde28409cab72ba44e3d50ec1)
+            ;
+
+            
+        
+    
+            var circle_marker_5b579de3ef7c4e348e3a4c35213e9c9f = L.circleMarker(
+                [37.825512, -122.367996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_e67d649a3f4f4ecdbe82d7bf41546434 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_63354304d12844c4bd61b00d36c692a3 = $(`<div id="html_63354304d12844c4bd61b00d36c692a3" style="width: 100.0%; height: 100.0%;">LIFE LEARNING ACADEMY CHARTER</div>`)[0];
+                popup_e67d649a3f4f4ecdbe82d7bf41546434.setContent(html_63354304d12844c4bd61b00d36c692a3);
+            
+
+            circle_marker_5b579de3ef7c4e348e3a4c35213e9c9f.bindPopup(popup_e67d649a3f4f4ecdbe82d7bf41546434)
+            ;
+
+            
+        
+    
+            var circle_marker_ae5aabf81c81422ea11b21283a3f08eb = L.circleMarker(
+                [37.783264, -122.436691],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_c9bdd17878c84917ac0495ac6c656a44 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_73c202755d974e80b55c2362296ad795 = $(`<div id="html_73c202755d974e80b55c2362296ad795" style="width: 100.0%; height: 100.0%;">GATEWAY HIGH</div>`)[0];
+                popup_c9bdd17878c84917ac0495ac6c656a44.setContent(html_73c202755d974e80b55c2362296ad795);
+            
+
+            circle_marker_ae5aabf81c81422ea11b21283a3f08eb.bindPopup(popup_c9bdd17878c84917ac0495ac6c656a44)
+            ;
+
+            
+        
+    
+            var circle_marker_efcf7b2f71ee4089963c6531d6a577a9 = L.circleMarker(
+                [37.803791, -122.424149],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_6d00b8efb7504a51aa3906d34d628758 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dfd98e6064ce433fa2625815e07a1cad = $(`<div id="html_dfd98e6064ce433fa2625815e07a1cad" style="width: 100.0%; height: 100.0%;">GALILEO HIGH</div>`)[0];
+                popup_6d00b8efb7504a51aa3906d34d628758.setContent(html_dfd98e6064ce433fa2625815e07a1cad);
+            
+
+            circle_marker_efcf7b2f71ee4089963c6531d6a577a9.bindPopup(popup_6d00b8efb7504a51aa3906d34d628758)
+            ;
+
+            
+        
+    
+            var circle_marker_e130c7a55146409b94a457ab6a61f8fc = L.circleMarker(
+                [37.746594, -122.48024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_f75db2263f34424e825302e4048e76c6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b831ac1df3c84b4681827ada9358f995 = $(`<div id="html_b831ac1df3c84b4681827ada9358f995" style="width: 100.0%; height: 100.0%;">LINCOLN (ABRAHAM) HIGH</div>`)[0];
+                popup_f75db2263f34424e825302e4048e76c6.setContent(html_b831ac1df3c84b4681827ada9358f995);
+            
+
+            circle_marker_e130c7a55146409b94a457ab6a61f8fc.bindPopup(popup_f75db2263f34424e825302e4048e76c6)
+            ;
+
+            
+        
+    
+            var circle_marker_55010b87569f4a21a7bf1ba5cbbc91e7 = L.circleMarker(
+                [37.729435, -122.483055],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_85bf0b5c9da54bd18f04e8d4b8d0a2ab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e1fccd1ea5ee47fbb11fad47f92e8b3b = $(`<div id="html_e1fccd1ea5ee47fbb11fad47f92e8b3b" style="width: 100.0%; height: 100.0%;">LOWELL HIGH</div>`)[0];
+                popup_85bf0b5c9da54bd18f04e8d4b8d0a2ab.setContent(html_e1fccd1ea5ee47fbb11fad47f92e8b3b);
+            
+
+            circle_marker_55010b87569f4a21a7bf1ba5cbbc91e7.bindPopup(popup_85bf0b5c9da54bd18f04e8d4b8d0a2ab)
+            ;
+
+            
+        
+    
+            var circle_marker_2b5033573ec04fb9a9213bff52708fc9 = L.circleMarker(
+                [37.76202, -122.427307],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_2d19d9d54dfd46e7ac48edde9cafed31 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_598b6a7682af4b6ea5a06984e17d4498 = $(`<div id="html_598b6a7682af4b6ea5a06984e17d4498" style="width: 100.0%; height: 100.0%;">MISSION HIGH</div>`)[0];
+                popup_2d19d9d54dfd46e7ac48edde9cafed31.setContent(html_598b6a7682af4b6ea5a06984e17d4498);
+            
+
+            circle_marker_2b5033573ec04fb9a9213bff52708fc9.bindPopup(popup_2d19d9d54dfd46e7ac48edde9cafed31)
+            ;
+
+            
+        
+    
+            var circle_marker_b63560166bde49bebb722c0dfcc2d681 = L.circleMarker(
+                [37.759514, -122.413559],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_de1cdc26d3ff48619ef32d39809a7575 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_47e0eafd4d2c4ff8aa9570fa322ec53f = $(`<div id="html_47e0eafd4d2c4ff8aa9570fa322ec53f" style="width: 100.0%; height: 100.0%;">O'CONNELL (JOHN) HIGH</div>`)[0];
+                popup_de1cdc26d3ff48619ef32d39809a7575.setContent(html_47e0eafd4d2c4ff8aa9570fa322ec53f);
+            
+
+            circle_marker_b63560166bde49bebb722c0dfcc2d681.bindPopup(popup_de1cdc26d3ff48619ef32d39809a7575)
+            ;
+
+            
+        
+    
+            var circle_marker_ba05ddcb9e6d44b8929475edab01cdc2 = L.circleMarker(
+                [37.777905, -122.491013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_f1ee2884a73e408b80efe91e456afce4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9cd00a2f5db5474cb57c496a0956bb8a = $(`<div id="html_9cd00a2f5db5474cb57c496a0956bb8a" style="width: 100.0%; height: 100.0%;">WASHINGTON (GEORGE) HIGH</div>`)[0];
+                popup_f1ee2884a73e408b80efe91e456afce4.setContent(html_9cd00a2f5db5474cb57c496a0956bb8a);
+            
+
+            circle_marker_ba05ddcb9e6d44b8929475edab01cdc2.bindPopup(popup_f1ee2884a73e408b80efe91e456afce4)
+            ;
+
+            
+        
+    
+            var circle_marker_87578d7348df4851b0d74aca3e904ceb = L.circleMarker(
+                [37.783005, -122.4823],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_50930973fba84bd693da74211791cd1c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8bab8ecab514467193dd1fe2c644b947 = $(`<div id="html_8bab8ecab514467193dd1fe2c644b947" style="width: 100.0%; height: 100.0%;">ALAMO ELEMENTARY</div>`)[0];
+                popup_50930973fba84bd693da74211791cd1c.setContent(html_8bab8ecab514467193dd1fe2c644b947);
+            
+
+            circle_marker_87578d7348df4851b0d74aca3e904ceb.bindPopup(popup_50930973fba84bd693da74211791cd1c)
+            ;
+
+            
+        
+    
+            var circle_marker_41e327d527c54e72a2a667c75aa55541 = L.circleMarker(
+                [37.753681, -122.438194],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_c451dbeb3f32490eae08bfc36d04ee01 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_61e3bc5618894d239a5f7a6303aa7eb9 = $(`<div id="html_61e3bc5618894d239a5f7a6303aa7eb9" style="width: 100.0%; height: 100.0%;">ALVARADO ELEMENTARY</div>`)[0];
+                popup_c451dbeb3f32490eae08bfc36d04ee01.setContent(html_61e3bc5618894d239a5f7a6303aa7eb9);
+            
+
+            circle_marker_41e327d527c54e72a2a667c75aa55541.bindPopup(popup_c451dbeb3f32490eae08bfc36d04ee01)
+            ;
+
+            
+        
+    
+            var circle_marker_96033fc2bc56450e851985d6241388f0 = L.circleMarker(
+                [37.775307, -122.476311],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_2b975ed938a9428bb10b27ba4a04e9b1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6726410607bc499ea76199aaea1cec40 = $(`<div id="html_6726410607bc499ea76199aaea1cec40" style="width: 100.0%; height: 100.0%;">ARGONNE ELEMENTARY</div>`)[0];
+                popup_2b975ed938a9428bb10b27ba4a04e9b1.setContent(html_6726410607bc499ea76199aaea1cec40);
+            
+
+            circle_marker_96033fc2bc56450e851985d6241388f0.bindPopup(popup_2b975ed938a9428bb10b27ba4a04e9b1)
+            ;
+
+            
+        
+    
+            var circle_marker_bc9158527e654351ac6f79294952c2fa = L.circleMarker(
+                [37.78056, -122.40049],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_4e15df2af3aa45e581a49545c64083c7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_03ee29e5b14b4a1c82a95e084c04d5b0 = $(`<div id="html_03ee29e5b14b4a1c82a95e084c04d5b0" style="width: 100.0%; height: 100.0%;">CARMICHAEL (BESSIE)/FEC</div>`)[0];
+                popup_4e15df2af3aa45e581a49545c64083c7.setContent(html_03ee29e5b14b4a1c82a95e084c04d5b0);
+            
+
+            circle_marker_bc9158527e654351ac6f79294952c2fa.bindPopup(popup_4e15df2af3aa45e581a49545c64083c7)
+            ;
+
+            
+        
+    
+            var circle_marker_603ee2dbcc0a465894e748849206592f = L.circleMarker(
+                [37.717899, -122.389221],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_2b48185c8a524600b280a67861fcc35a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_be0118ee4b114ee191e7fc8d68a1817a = $(`<div id="html_be0118ee4b114ee191e7fc8d68a1817a" style="width: 100.0%; height: 100.0%;">HARTE (BRET) ELEMENTARY</div>`)[0];
+                popup_2b48185c8a524600b280a67861fcc35a.setContent(html_be0118ee4b114ee191e7fc8d68a1817a);
+            
+
+            circle_marker_603ee2dbcc0a465894e748849206592f.bindPopup(popup_2b48185c8a524600b280a67861fcc35a)
+            ;
+
+            
+        
+    
+            var circle_marker_f37dc56dc6894787bdb9e97fd5a9e74d = L.circleMarker(
+                [37.751453, -122.404694],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_725110bccb9d4498b4ba766d2f52172e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_279b4dea3e0142da82c95f497e1c6dec = $(`<div id="html_279b4dea3e0142da82c95f497e1c6dec" style="width: 100.0%; height: 100.0%;">BRYANT ELEMENTARY</div>`)[0];
+                popup_725110bccb9d4498b4ba766d2f52172e.setContent(html_279b4dea3e0142da82c95f497e1c6dec);
+            
+
+            circle_marker_f37dc56dc6894787bdb9e97fd5a9e74d.bindPopup(popup_725110bccb9d4498b4ba766d2f52172e)
+            ;
+
+            
+        
+    
+            var circle_marker_1dd744add2894077b1b75e8730eb5473 = L.circleMarker(
+                [37.753754, -122.456268],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_edfd3ed073924250b32a3ccadb98708e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8655a16985b344f39016712b58479af2 = $(`<div id="html_8655a16985b344f39016712b58479af2" style="width: 100.0%; height: 100.0%;">CLARENDON ALTERNATIVE ELEMENTARY</div>`)[0];
+                popup_edfd3ed073924250b32a3ccadb98708e.setContent(html_8655a16985b344f39016712b58479af2);
+            
+
+            circle_marker_1dd744add2894077b1b75e8730eb5473.bindPopup(popup_edfd3ed073924250b32a3ccadb98708e)
+            ;
+
+            
+        
+    
+            var circle_marker_0a69839e5a6a46029fa553929955742c = L.circleMarker(
+                [37.720341, -122.429192],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_bfe81cb1a36244d5a4e3425589ce894a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2d6969a9e82f4432aae0121b4cafdbee = $(`<div id="html_2d6969a9e82f4432aae0121b4cafdbee" style="width: 100.0%; height: 100.0%;">CLEVELAND ELEMENTARY</div>`)[0];
+                popup_bfe81cb1a36244d5a4e3425589ce894a.setContent(html_2d6969a9e82f4432aae0121b4cafdbee);
+            
+
+            circle_marker_0a69839e5a6a46029fa553929955742c.bindPopup(popup_bfe81cb1a36244d5a4e3425589ce894a)
+            ;
+
+            
+        
+    
+            var circle_marker_a4a3102bf6024a289ab1f8e233893bc7 = L.circleMarker(
+                [37.731258, -122.470482],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_8ee00a4573924877be32cb8db10dce4b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c3a6c6948af34c0dae623ec35d8e34d8 = $(`<div id="html_c3a6c6948af34c0dae623ec35d8e34d8" style="width: 100.0%; height: 100.0%;">SLOAT (COMMODORE) ELEMENTARY</div>`)[0];
+                popup_8ee00a4573924877be32cb8db10dce4b.setContent(html_c3a6c6948af34c0dae623ec35d8e34d8);
+            
+
+            circle_marker_a4a3102bf6024a289ab1f8e233893bc7.bindPopup(popup_8ee00a4573924877be32cb8db10dce4b)
+            ;
+
+            
+        
+    
+            var circle_marker_baac2878ecc84aeda20f82cdfa97fb22 = L.circleMarker(
+                [37.794399, -122.408806],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_fc931157350a4c54b46a725474861c58 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f159a1e9f8cf45349bbf1cf251086c24 = $(`<div id="html_f159a1e9f8cf45349bbf1cf251086c24" style="width: 100.0%; height: 100.0%;">LAU (GORDON J.) ELEMENTARY</div>`)[0];
+                popup_fc931157350a4c54b46a725474861c58.setContent(html_f159a1e9f8cf45349bbf1cf251086c24);
+            
+
+            circle_marker_baac2878ecc84aeda20f82cdfa97fb22.bindPopup(popup_fc931157350a4c54b46a725474861c58)
+            ;
+
+            
+        
+    
+            var circle_marker_dc13882469b146b1b14d7178ef21e349 = L.circleMarker(
+                [37.762009, -122.400772],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_b576c4b0c8af422191f0efbe83ed6d61 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d301c50fad0b4f22a69aae2f5093b865 = $(`<div id="html_d301c50fad0b4f22a69aae2f5093b865" style="width: 100.0%; height: 100.0%;">WEBSTER (DANIEL) ELEMENTARY</div>`)[0];
+                popup_b576c4b0c8af422191f0efbe83ed6d61.setContent(html_d301c50fad0b4f22a69aae2f5093b865);
+            
+
+            circle_marker_dc13882469b146b1b14d7178ef21e349.bindPopup(popup_b576c4b0c8af422191f0efbe83ed6d61)
+            ;
+
+            
+        
+    
+            var circle_marker_48d709e3ffd34ed190c05c54b481265a = L.circleMarker(
+                [37.758926, -122.436447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_7bf8943290134c8c8f9888fc3fe45045 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_531b881055cf4d3d9af8787697381c2f = $(`<div id="html_531b881055cf4d3d9af8787697381c2f" style="width: 100.0%; height: 100.0%;">MILK (HARVEY) CIVIL RIGHTS ELEMENTARY</div>`)[0];
+                popup_7bf8943290134c8c8f9888fc3fe45045.setContent(html_531b881055cf4d3d9af8787697381c2f);
+            
+
+            circle_marker_48d709e3ffd34ed190c05c54b481265a.bindPopup(popup_7bf8943290134c8c8f9888fc3fe45045)
+            ;
+
+            
+        
+    
+            var circle_marker_40a8d2ae46ba4832ad2bba8f8eea6443 = L.circleMarker(
+                [37.754467, -122.426041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_2babbb74f1264f5aae4a0b9922e93aac = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_092bc45b5c7848d4a6ff655bf494ffac = $(`<div id="html_092bc45b5c7848d4a6ff655bf494ffac" style="width: 100.0%; height: 100.0%;">EDISON CHARTER ACADEMY</div>`)[0];
+                popup_2babbb74f1264f5aae4a0b9922e93aac.setContent(html_092bc45b5c7848d4a6ff655bf494ffac);
+            
+
+            circle_marker_40a8d2ae46ba4832ad2bba8f8eea6443.bindPopup(popup_2babbb74f1264f5aae4a0b9922e93aac)
+            ;
+
+            
+        
+    
+            var circle_marker_2eb4888e1d3f4cb2af1d600ae0ec8817 = L.circleMarker(
+                [37.727329, -122.40731],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_021ea633d8be4e6cb245c2ca84fbaf6e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_83dd22d8525645b18332878ae0d03fae = $(`<div id="html_83dd22d8525645b18332878ae0d03fae" style="width: 100.0%; height: 100.0%;">TAYLOR (EDWARD R.) ELEMENTARY</div>`)[0];
+                popup_021ea633d8be4e6cb245c2ca84fbaf6e.setContent(html_83dd22d8525645b18332878ae0d03fae);
+            
+
+            circle_marker_2eb4888e1d3f4cb2af1d600ae0ec8817.bindPopup(popup_021ea633d8be4e6cb245c2ca84fbaf6e)
+            ;
+
+            
+        
+    
+            var circle_marker_05b0901ba64841038120ce5e20c57336 = L.circleMarker(
+                [37.718658, -122.407852],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_5afdd00b74904ce996da9563e578adcb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6f521d17b6ff4b51bb5a04753a6f59bc = $(`<div id="html_6f521d17b6ff4b51bb5a04753a6f59bc" style="width: 100.0%; height: 100.0%;">EL DORADO ELEMENTARY</div>`)[0];
+                popup_5afdd00b74904ce996da9563e578adcb.setContent(html_6f521d17b6ff4b51bb5a04753a6f59bc);
+            
+
+            circle_marker_05b0901ba64841038120ce5e20c57336.bindPopup(popup_5afdd00b74904ce996da9563e578adcb)
+            ;
+
+            
+        
+    
+            var circle_marker_b4b690bddc2547a3ae18066181492ad7 = L.circleMarker(
+                [37.787678, -122.439552],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_9b942050e5114b23989d0334a73f2b2c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7180485478054f2fb4844d26d6309448 = $(`<div id="html_7180485478054f2fb4844d26d6309448" style="width: 100.0%; height: 100.0%;">COBB (WILLIAM L.) ELEMENTARY</div>`)[0];
+                popup_9b942050e5114b23989d0334a73f2b2c.setContent(html_7180485478054f2fb4844d26d6309448);
+            
+
+            circle_marker_b4b690bddc2547a3ae18066181492ad7.bindPopup(popup_9b942050e5114b23989d0334a73f2b2c)
+            ;
+
+            
+        
+    
+            var circle_marker_b9f64ba35a87495aa80a4bfe916a77a6 = L.circleMarker(
+                [37.740433, -122.425011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_be0f83c117c04222a134e1395d002803 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7d6ae6dbeb2149f88de7ff1c92cf3220 = $(`<div id="html_7d6ae6dbeb2149f88de7ff1c92cf3220" style="width: 100.0%; height: 100.0%;">FAIRMOUNT ELEMENTARY</div>`)[0];
+                popup_be0f83c117c04222a134e1395d002803.setContent(html_7d6ae6dbeb2149f88de7ff1c92cf3220);
+            
+
+            circle_marker_b9f64ba35a87495aa80a4bfe916a77a6.bindPopup(popup_be0f83c117c04222a134e1395d002803)
+            ;
+
+            
+        
+    
+            var circle_marker_8c08bc41c25f49e5a28b843bd6f6a814 = L.circleMarker(
+                [37.758099, -122.501999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_6b20276965d3430090db9304f4c712a2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2f450824616649cba1f9c07e69221ff4 = $(`<div id="html_2f450824616649cba1f9c07e69221ff4" style="width: 100.0%; height: 100.0%;">KEY (FRANCIS SCOTT) ELEMENTARY</div>`)[0];
+                popup_6b20276965d3430090db9304f4c712a2.setContent(html_2f450824616649cba1f9c07e69221ff4);
+            
+
+            circle_marker_8c08bc41c25f49e5a28b843bd6f6a814.bindPopup(popup_6b20276965d3430090db9304f4c712a2)
+            ;
+
+            
+        
+    
+            var circle_marker_6ffc2594c67c4906a153d0755c4107ec = L.circleMarker(
+                [37.77631, -122.464477],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_dee78ee81940425d8fa1832a36dac750 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e686135fb73046ceaf8d7f388a2bd0dd = $(`<div id="html_e686135fb73046ceaf8d7f388a2bd0dd" style="width: 100.0%; height: 100.0%;">MCCOPPIN (FRANK) ELEMENTARY</div>`)[0];
+                popup_dee78ee81940425d8fa1832a36dac750.setContent(html_e686135fb73046ceaf8d7f388a2bd0dd);
+            
+
+            circle_marker_6ffc2594c67c4906a153d0755c4107ec.bindPopup(popup_dee78ee81940425d8fa1832a36dac750)
+            ;
+
+            
+        
+    
+            var circle_marker_3a73a060ee44482d82377f0ca15564bd = L.circleMarker(
+                [37.802036, -122.406692],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_5415ec71432e458a961d795a3e9e5b86 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_73c37ee907204b17a2f0a7d1e78a57ab = $(`<div id="html_73c37ee907204b17a2f0a7d1e78a57ab" style="width: 100.0%; height: 100.0%;">GARFIELD ELEMENTARY</div>`)[0];
+                popup_5415ec71432e458a961d795a3e9e5b86.setContent(html_73c37ee907204b17a2f0a7d1e78a57ab);
+            
+
+            circle_marker_3a73a060ee44482d82377f0ca15564bd.bindPopup(popup_5415ec71432e458a961d795a3e9e5b86)
+            ;
+
+            
+        
+    
+            var circle_marker_0c5241dc2c1c4483a94878635b783a17 = L.circleMarker(
+                [37.783855, -122.465027],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_741fee7f1ede4c75894a566f7b7a4233 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_453c68a9ec7143f985228160281a6928 = $(`<div id="html_453c68a9ec7143f985228160281a6928" style="width: 100.0%; height: 100.0%;">PEABODY (GEORGE) ELEMENTARY</div>`)[0];
+                popup_741fee7f1ede4c75894a566f7b7a4233.setContent(html_453c68a9ec7143f985228160281a6928);
+            
+
+            circle_marker_0c5241dc2c1c4483a94878635b783a17.bindPopup(popup_741fee7f1ede4c75894a566f7b7a4233)
+            ;
+
+            
+        
+    
+            var circle_marker_2052a09ff99f425c8d46523c6a3ba7f1 = L.circleMarker(
+                [37.733131, -122.435623],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_80cd7bd821884aa081b2ab7cced1567e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5e8d749c67304a4991c686a9afe90ad7 = $(`<div id="html_5e8d749c67304a4991c686a9afe90ad7" style="width: 100.0%; height: 100.0%;">GLEN PARK ELEMENTARY</div>`)[0];
+                popup_80cd7bd821884aa081b2ab7cced1567e.setContent(html_5e8d749c67304a4991c686a9afe90ad7);
+            
+
+            circle_marker_2052a09ff99f425c8d46523c6a3ba7f1.bindPopup(popup_80cd7bd821884aa081b2ab7cced1567e)
+            ;
+
+            
+        
+    
+            var circle_marker_71b63e62c81848fc9756d71c96c21c81 = L.circleMarker(
+                [37.763493, -122.450424],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_2b7c715fa3a043a39a73798f13783264 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b91b0e1a737d4f1ca5747a03332b7a76 = $(`<div id="html_b91b0e1a737d4f1ca5747a03332b7a76" style="width: 100.0%; height: 100.0%;">GRATTAN ELEMENTARY</div>`)[0];
+                popup_2b7c715fa3a043a39a73798f13783264.setContent(html_b91b0e1a737d4f1ca5747a03332b7a76);
+            
+
+            circle_marker_71b63e62c81848fc9756d71c96c21c81.bindPopup(popup_2b7c715fa3a043a39a73798f13783264)
+            ;
+
+            
+        
+    
+            var circle_marker_6949787fe0d2450a8f6737b4e01645a3 = L.circleMarker(
+                [37.710182, -122.434029],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0a5f233bb18f494f921b7d1ee8b47676 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_33650d74a66944068b7156a3d2b2f934 = $(`<div id="html_33650d74a66944068b7156a3d2b2f934" style="width: 100.0%; height: 100.0%;">GUADALUPE ELEMENTARY</div>`)[0];
+                popup_0a5f233bb18f494f921b7d1ee8b47676.setContent(html_33650d74a66944068b7156a3d2b2f934);
+            
+
+            circle_marker_6949787fe0d2450a8f6737b4e01645a3.bindPopup(popup_0a5f233bb18f494f921b7d1ee8b47676)
+            ;
+
+            
+        
+    
+            var circle_marker_07150f8bc8b2468cb560fc6a7e63eb72 = L.circleMarker(
+                [37.80196, -122.416611],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_23afee6ac09546a3929cd76868158de9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aa1b890bb39e415d8f63e41da66b0d8b = $(`<div id="html_aa1b890bb39e415d8f63e41da66b0d8b" style="width: 100.0%; height: 100.0%;">YICK WO ELEMENTARY</div>`)[0];
+                popup_23afee6ac09546a3929cd76868158de9.setContent(html_aa1b890bb39e415d8f63e41da66b0d8b);
+            
+
+            circle_marker_07150f8bc8b2468cb560fc6a7e63eb72.bindPopup(popup_23afee6ac09546a3929cd76868158de9)
+            ;
+
+            
+        
+    
+            var circle_marker_78bc69dae73548d7acafb117b2cbc94f = L.circleMarker(
+                [37.754921, -122.414879],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_1bbd8a574b604ded9132707e325d89c6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_57d561db2ec944969ffa88b9bba2d77d = $(`<div id="html_57d561db2ec944969ffa88b9bba2d77d" style="width: 100.0%; height: 100.0%;">CHAVEZ (CESAR) ELEMENTARY</div>`)[0];
+                popup_1bbd8a574b604ded9132707e325d89c6.setContent(html_57d561db2ec944969ffa88b9bba2d77d);
+            
+
+            circle_marker_78bc69dae73548d7acafb117b2cbc94f.bindPopup(popup_1bbd8a574b604ded9132707e325d89c6)
+            ;
+
+            
+        
+    
+            var circle_marker_0d8f87b0db204a71b1660382b00545a0 = L.circleMarker(
+                [37.728413, -122.418686],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_ec092a453edd4693aa49f47b45a13cde = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3597777600b849b0a934fa923f437c37 = $(`<div id="html_3597777600b849b0a934fa923f437c37" style="width: 100.0%; height: 100.0%;">HILLCREST ELEMENTARY</div>`)[0];
+                popup_ec092a453edd4693aa49f47b45a13cde.setContent(html_3597777600b849b0a934fa923f437c37);
+            
+
+            circle_marker_0d8f87b0db204a71b1660382b00545a0.bindPopup(popup_ec092a453edd4693aa49f47b45a13cde)
+            ;
+
+            
+        
+    
+            var circle_marker_54d4babec7fc48eeb90ab3898c9db558 = L.circleMarker(
+                [37.797619, -122.411041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_cb1318c5ef87493b809f96359b229df1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_961765a9bfbf485fa7f3e5aed8514e9e = $(`<div id="html_961765a9bfbf485fa7f3e5aed8514e9e" style="width: 100.0%; height: 100.0%;">PARKER (JEAN) ELEMENTARY</div>`)[0];
+                popup_cb1318c5ef87493b809f96359b229df1.setContent(html_961765a9bfbf485fa7f3e5aed8514e9e);
+            
+
+            circle_marker_54d4babec7fc48eeb90ab3898c9db558.bindPopup(popup_cb1318c5ef87493b809f96359b229df1)
+            ;
+
+            
+        
+    
+            var circle_marker_35da73a6d0ec46a6b555e98cba9344b7 = L.circleMarker(
+                [37.763065, -122.47673],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_1f18035ad8ca43db9086e6a21f5829f6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c2997f24d5ac48019b726987b4391381 = $(`<div id="html_c2997f24d5ac48019b726987b4391381" style="width: 100.0%; height: 100.0%;">JEFFERSON ELEMENTARY</div>`)[0];
+                popup_1f18035ad8ca43db9086e6a21f5829f6.setContent(html_c2997f24d5ac48019b726987b4391381);
+            
+
+            circle_marker_35da73a6d0ec46a6b555e98cba9344b7.bindPopup(popup_1f18035ad8ca43db9086e6a21f5829f6)
+            ;
+
+            
+        
+    
+            var circle_marker_6162f381a3e94b05af509293110e72c6 = L.circleMarker(
+                [37.773758, -122.42868],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_8caf3995f45e4da8a2029f20b26b6d9f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0e065c42a35b42e4a474e5eb96f2ef99 = $(`<div id="html_0e065c42a35b42e4a474e5eb96f2ef99" style="width: 100.0%; height: 100.0%;">MUIR (JOHN) ELEMENTARY</div>`)[0];
+                popup_8caf3995f45e4da8a2029f20b26b6d9f.setContent(html_0e065c42a35b42e4a474e5eb96f2ef99);
+            
+
+            circle_marker_6162f381a3e94b05af509293110e72c6.bindPopup(popup_8caf3995f45e4da8a2029f20b26b6d9f)
+            ;
+
+            
+        
+    
+            var circle_marker_091b84bb005e458eb34c53cd5d301e39 = L.circleMarker(
+                [37.716782, -122.466675],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_90f296ade37f4bd8b3c47caefd45eb01 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c0d12434bb5f4a708571b29761c29d4e = $(`<div id="html_c0d12434bb5f4a708571b29761c29d4e" style="width: 100.0%; height: 100.0%;">ORTEGA (JOSE) ELEMENTARY</div>`)[0];
+                popup_90f296ade37f4bd8b3c47caefd45eb01.setContent(html_c0d12434bb5f4a708571b29761c29d4e);
+            
+
+            circle_marker_091b84bb005e458eb34c53cd5d301e39.bindPopup(popup_90f296ade37f4bd8b3c47caefd45eb01)
+            ;
+
+            
+        
+    
+            var circle_marker_c325a6314d13460590ff011a7ac30e9a = L.circleMarker(
+                [37.736912, -122.421486],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_c3c4c7b64e964453b847f15913074801 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0ae9461a87c34aa99649a26b4f54dadd = $(`<div id="html_0ae9461a87c34aa99649a26b4f54dadd" style="width: 100.0%; height: 100.0%;">SERRA (JUNIPERO) ELEMENTARY</div>`)[0];
+                popup_c3c4c7b64e964453b847f15913074801.setContent(html_0ae9461a87c34aa99649a26b4f54dadd);
+            
+
+            circle_marker_c325a6314d13460590ff011a7ac30e9a.bindPopup(popup_c3c4c7b64e964453b847f15913074801)
+            ;
+
+            
+        
+    
+            var circle_marker_ec24a79753034216a80b273f06863c06 = L.circleMarker(
+                [37.777069, -122.496887],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_020b1f65d04d46e18617a8a8a484aea9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a5a1be10fcc141e284334917111ed866 = $(`<div id="html_a5a1be10fcc141e284334917111ed866" style="width: 100.0%; height: 100.0%;">LAFAYETTE ELEMENTARY</div>`)[0];
+                popup_020b1f65d04d46e18617a8a8a484aea9.setContent(html_a5a1be10fcc141e284334917111ed866);
+            
+
+            circle_marker_ec24a79753034216a80b273f06863c06.bindPopup(popup_020b1f65d04d46e18617a8a8a484aea9)
+            ;
+
+            
+        
+    
+            var circle_marker_0611a72d8b8e4ec8a221ab4363638aa3 = L.circleMarker(
+                [37.730324, -122.48542],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_e35a73ddb7494d728ed8ede5a701adf4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f1e9d9e198954138976abdb02e360768 = $(`<div id="html_f1e9d9e198954138976abdb02e360768" style="width: 100.0%; height: 100.0%;">LAKESHORE ALTERNATIVE ELEMENTARY</div>`)[0];
+                popup_e35a73ddb7494d728ed8ede5a701adf4.setContent(html_f1e9d9e198954138976abdb02e360768);
+            
+
+            circle_marker_0611a72d8b8e4ec8a221ab4363638aa3.bindPopup(popup_e35a73ddb7494d728ed8ede5a701adf4)
+            ;
+
+            
+        
+    
+            var circle_marker_1369314c4901488d95ddb67505f7ffac = L.circleMarker(
+                [37.758049, -122.489098],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_59efe9fc38dc418d956a1bdaaf92b641 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e0f4d8f01bf34c3aa8977bce45bc64a4 = $(`<div id="html_e0f4d8f01bf34c3aa8977bce45bc64a4" style="width: 100.0%; height: 100.0%;">LAWTON ALTERNATIVE ELEMENTARY</div>`)[0];
+                popup_59efe9fc38dc418d956a1bdaaf92b641.setContent(html_e0f4d8f01bf34c3aa8977bce45bc64a4);
+            
+
+            circle_marker_1369314c4901488d95ddb67505f7ffac.bindPopup(popup_59efe9fc38dc418d956a1bdaaf92b641)
+            ;
+
+            
+        
+    
+            var circle_marker_c9e06dda9b4246a18257185bab384ddd = L.circleMarker(
+                [37.747746, -122.411964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_8daf93debe63401e9453815c4e1e1572 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_70bd000bfaa74c239bf92e1d9ca8b79e = $(`<div id="html_70bd000bfaa74c239bf92e1d9ca8b79e" style="width: 100.0%; height: 100.0%;">FLYNN (LEONARD R.) ELEMENTARY</div>`)[0];
+                popup_8daf93debe63401e9453815c4e1e1572.setContent(html_70bd000bfaa74c239bf92e1d9ca8b79e);
+            
+
+            circle_marker_c9e06dda9b4246a18257185bab384ddd.bindPopup(popup_8daf93debe63401e9453815c4e1e1572)
+            ;
+
+            
+        
+    
+            var circle_marker_4887520731f346508978fcaa2d530152 = L.circleMarker(
+                [37.710423, -122.446739],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_6e53f2e3bc294b5284ca79bfa894d537 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_108a69463a974bbdb05f1ffa2236f2b2 = $(`<div id="html_108a69463a974bbdb05f1ffa2236f2b2" style="width: 100.0%; height: 100.0%;">LONGFELLOW ELEMENTARY</div>`)[0];
+                popup_6e53f2e3bc294b5284ca79bfa894d537.setContent(html_108a69463a974bbdb05f1ffa2236f2b2);
+            
+
+            circle_marker_4887520731f346508978fcaa2d530152.bindPopup(popup_6e53f2e3bc294b5284ca79bfa894d537)
+            ;
+
+            
+        
+    
+            var circle_marker_6e9580c808a84a0eb6a05378fe0a4ddc = L.circleMarker(
+                [37.766289, -122.419022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_1621e36226844effbd7e39cbe97a3341 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2dd3a49bc62544b4a903aa8f34098920 = $(`<div id="html_2dd3a49bc62544b4a903aa8f34098920" style="width: 100.0%; height: 100.0%;">MARSHALL ELEMENTARY</div>`)[0];
+                popup_1621e36226844effbd7e39cbe97a3341.setContent(html_2dd3a49bc62544b4a903aa8f34098920);
+            
+
+            circle_marker_6e9580c808a84a0eb6a05378fe0a4ddc.bindPopup(popup_1621e36226844effbd7e39cbe97a3341)
+            ;
+
+            
+        
+    
+            var circle_marker_d618e96946f54589a4e204e5d84a0ffa = L.circleMarker(
+                [37.766884, -122.436279],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_95256d91445b4d438a3b0467c7e4b94c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7c6e62b83f7d4e54a0f39dbe720b1c80 = $(`<div id="html_7c6e62b83f7d4e54a0f39dbe720b1c80" style="width: 100.0%; height: 100.0%;">MCKINLEY ELEMENTARY</div>`)[0];
+                popup_95256d91445b4d438a3b0467c7e4b94c.setContent(html_7c6e62b83f7d4e54a0f39dbe720b1c80);
+            
+
+            circle_marker_d618e96946f54589a4e204e5d84a0ffa.bindPopup(popup_95256d91445b4d438a3b0467c7e4b94c)
+            ;
+
+            
+        
+    
+            var circle_marker_1c0cbb945e094ab5b7ca20ba9df4fd9a = L.circleMarker(
+                [37.738636, -122.450188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_03ea3edaedd3432c8f306ef0fe6f3a02 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b010c47617da4875b94232a691651f24 = $(`<div id="html_b010c47617da4875b94232a691651f24" style="width: 100.0%; height: 100.0%;">MIRALOMA ELEMENTARY</div>`)[0];
+                popup_03ea3edaedd3432c8f306ef0fe6f3a02.setContent(html_b010c47617da4875b94232a691651f24);
+            
+
+            circle_marker_1c0cbb945e094ab5b7ca20ba9df4fd9a.bindPopup(popup_03ea3edaedd3432c8f306ef0fe6f3a02)
+            ;
+
+            
+        
+    
+            var circle_marker_29c8a5d4f43b4622aca057a27bfdcd08 = L.circleMarker(
+                [37.725399, -122.430489],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_1f241024ea9d4c699319f742dc5f0ca4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4571a223b3394c56bcc9db20192f3a39 = $(`<div id="html_4571a223b3394c56bcc9db20192f3a39" style="width: 100.0%; height: 100.0%;">MONROE ELEMENTARY</div>`)[0];
+                popup_1f241024ea9d4c699319f742dc5f0ca4.setContent(html_4571a223b3394c56bcc9db20192f3a39);
+            
+
+            circle_marker_29c8a5d4f43b4622aca057a27bfdcd08.bindPopup(popup_1f241024ea9d4c699319f742dc5f0ca4)
+            ;
+
+            
+        
+    
+            var circle_marker_b371e47c037b4777a18df679a7501b11 = L.circleMarker(
+                [37.737614, -122.413116],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_2fd2221a56094ffe9d558751903c2b0c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f013d5055edd48e889f4d1132a9c65c2 = $(`<div id="html_f013d5055edd48e889f4d1132a9c65c2" style="width: 100.0%; height: 100.0%;">REVERE (PAUL) ELEMENTARY</div>`)[0];
+                popup_2fd2221a56094ffe9d558751903c2b0c.setContent(html_f013d5055edd48e889f4d1132a9c65c2);
+            
+
+            circle_marker_b371e47c037b4777a18df679a7501b11.bindPopup(popup_2fd2221a56094ffe9d558751903c2b0c)
+            ;
+
+            
+        
+    
+            var circle_marker_f89d425f8d84403eb30319978b287061 = L.circleMarker(
+                [37.783009, -122.429504],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_4cd96fed20134c3597109967014e1ca9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b22b243080ed4fbebcc77681480f449c = $(`<div id="html_b22b243080ed4fbebcc77681480f449c" style="width: 100.0%; height: 100.0%;">PARKS (ROSA) ELEMENTARY</div>`)[0];
+                popup_4cd96fed20134c3597109967014e1ca9.setContent(html_b22b243080ed4fbebcc77681480f449c);
+            
+
+            circle_marker_f89d425f8d84403eb30319978b287061.bindPopup(popup_4cd96fed20134c3597109967014e1ca9)
+            ;
+
+            
+        
+    
+            var circle_marker_d15a851691c947e78f693a41cd968f8f = L.circleMarker(
+                [37.78952, -122.41925],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_5fdcc62cd4204bf0a4acf70e322b6351 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4f91593e2aed40efbfceabfcbb01ff78 = $(`<div id="html_4f91593e2aed40efbfceabfcbb01ff78" style="width: 100.0%; height: 100.0%;">REDDING ELEMENTARY</div>`)[0];
+                popup_5fdcc62cd4204bf0a4acf70e322b6351.setContent(html_4f91593e2aed40efbfceabfcbb01ff78);
+            
+
+            circle_marker_d15a851691c947e78f693a41cd968f8f.bindPopup(popup_5fdcc62cd4204bf0a4acf70e322b6351)
+            ;
+
+            
+        
+    
+            var circle_marker_e5e3485e22214e5a88a2f1b935cbda75 = L.circleMarker(
+                [37.748844, -122.49276],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_74415946e44a4428b8f28c02a1f7ef06 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_60a9312907ce4b5faf377c3e4288ab8a = $(`<div id="html_60a9312907ce4b5faf377c3e4288ab8a" style="width: 100.0%; height: 100.0%;">STEVENSON (ROBERT LOUIS) ELEMENTARY</div>`)[0];
+                popup_74415946e44a4428b8f28c02a1f7ef06.setContent(html_60a9312907ce4b5faf377c3e4288ab8a);
+            
+
+            circle_marker_e5e3485e22214e5a88a2f1b935cbda75.bindPopup(popup_74415946e44a4428b8f28c02a1f7ef06)
+            ;
+
+            
+        
+    
+            var circle_marker_5924e91a684e4c57b2dab4eac09bf1d2 = L.circleMarker(
+                [37.763454, -122.430359],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_d853371a859a434693e038f2bbd572d8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_91a043fa5bfa4c9fad613e074c25b216 = $(`<div id="html_91a043fa5bfa4c9fad613e074c25b216" style="width: 100.0%; height: 100.0%;">SANCHEZ ELEMENTARY</div>`)[0];
+                popup_d853371a859a434693e038f2bbd572d8.setContent(html_91a043fa5bfa4c9fad613e074c25b216);
+            
+
+            circle_marker_5924e91a684e4c57b2dab4eac09bf1d2.bindPopup(popup_d853371a859a434693e038f2bbd572d8)
+            ;
+
+            
+        
+    
+            var circle_marker_bc5c0ad7eca44541be495cddc646ae5e = L.circleMarker(
+                [37.714478, -122.459633],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_7f22d751b03d4728985aaaf2af5c0f1f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_449a705cabdd449a9d4f2444537a02eb = $(`<div id="html_449a705cabdd449a9d4f2444537a02eb" style="width: 100.0%; height: 100.0%;">SHERIDAN ELEMENTARY</div>`)[0];
+                popup_7f22d751b03d4728985aaaf2af5c0f1f.setContent(html_449a705cabdd449a9d4f2444537a02eb);
+            
+
+            circle_marker_bc5c0ad7eca44541be495cddc646ae5e.bindPopup(popup_7f22d751b03d4728985aaaf2af5c0f1f)
+            ;
+
+            
+        
+    
+            var circle_marker_e6145132623c4537997fb5d8b59b1314 = L.circleMarker(
+                [37.797802, -122.426117],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_76e3e4b8754441d68433ecdd9edd813a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ba24bd9243524e9e9665a544d66cab5b = $(`<div id="html_ba24bd9243524e9e9665a544d66cab5b" style="width: 100.0%; height: 100.0%;">SHERMAN ELEMENTARY</div>`)[0];
+                popup_76e3e4b8754441d68433ecdd9edd813a.setContent(html_ba24bd9243524e9e9665a544d66cab5b);
+            
+
+            circle_marker_e6145132623c4537997fb5d8b59b1314.bindPopup(popup_76e3e4b8754441d68433ecdd9edd813a)
+            ;
+
+            
+        
+    
+            var circle_marker_1734f58c761640329cfca4865f7d21e0 = L.circleMarker(
+                [37.734238, -122.380966],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_50105788fc1147efa03b59dfc64c0e04 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8137e77b0a7641ca88f4092a15f1bbd3 = $(`<div id="html_8137e77b0a7641ca88f4092a15f1bbd3" style="width: 100.0%; height: 100.0%;">MALCOLM X ACADEMY</div>`)[0];
+                popup_50105788fc1147efa03b59dfc64c0e04.setContent(html_8137e77b0a7641ca88f4092a15f1bbd3);
+            
+
+            circle_marker_1734f58c761640329cfca4865f7d21e0.bindPopup(popup_50105788fc1147efa03b59dfc64c0e04)
+            ;
+
+            
+        
+    
+            var circle_marker_0a5ee2b9a0c74c2681591b40f60fa193 = L.circleMarker(
+                [37.794006, -122.418816],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_71cc9a5792f5408987e190737b15a3f4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_53c14d14b6dd4547b99004bfaf488e4c = $(`<div id="html_53c14d14b6dd4547b99004bfaf488e4c" style="width: 100.0%; height: 100.0%;">SPRING VALLEY ELEMENTARY</div>`)[0];
+                popup_71cc9a5792f5408987e190737b15a3f4.setContent(html_53c14d14b6dd4547b99004bfaf488e4c);
+            
+
+            circle_marker_0a5ee2b9a0c74c2681591b40f60fa193.bindPopup(popup_71cc9a5792f5408987e190737b15a3f4)
+            ;
+
+            
+        
+    
+            var circle_marker_f76cdb19ce10422590464d55ccf5c6ad = L.circleMarker(
+                [37.753288, -122.399193],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_dc32bebf2d9a48bf98d3b9cd36075c30 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2161a97a34a94c70b50988a97debb924 = $(`<div id="html_2161a97a34a94c70b50988a97debb924" style="width: 100.0%; height: 100.0%;">KING (STARR) ELEMENTARY</div>`)[0];
+                popup_dc32bebf2d9a48bf98d3b9cd36075c30.setContent(html_2161a97a34a94c70b50988a97debb924);
+            
+
+            circle_marker_f76cdb19ce10422590464d55ccf5c6ad.bindPopup(popup_dc32bebf2d9a48bf98d3b9cd36075c30)
+            ;
+
+            
+        
+    
+            var circle_marker_f48410312669408e990811a9687d811a = L.circleMarker(
+                [37.730293, -122.448257],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_ad6be6e27cc54a65bebc64b3203b13d6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0ec3a30ffd44441b8e9a24b0f929f168 = $(`<div id="html_0ec3a30ffd44441b8e9a24b0f929f168" style="width: 100.0%; height: 100.0%;">SUNNYSIDE ELEMENTARY</div>`)[0];
+                popup_ad6be6e27cc54a65bebc64b3203b13d6.setContent(html_0ec3a30ffd44441b8e9a24b0f929f168);
+            
+
+            circle_marker_f48410312669408e990811a9687d811a.bindPopup(popup_ad6be6e27cc54a65bebc64b3203b13d6)
+            ;
+
+            
+        
+    
+            var circle_marker_ba92da37248b4974a40a3c4fe6fa7d6e = L.circleMarker(
+                [37.783604, -122.471451],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_b6ebed2b13584bcf9bcb17eb5c491d9a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_09ce807816df4f0980c6f86abe68a84b = $(`<div id="html_09ce807816df4f0980c6f86abe68a84b" style="width: 100.0%; height: 100.0%;">SUTRO ELEMENTARY</div>`)[0];
+                popup_b6ebed2b13584bcf9bcb17eb5c491d9a.setContent(html_09ce807816df4f0980c6f86abe68a84b);
+            
+
+            circle_marker_ba92da37248b4974a40a3c4fe6fa7d6e.bindPopup(popup_b6ebed2b13584bcf9bcb17eb5c491d9a)
+            ;
+
+            
+        
+    
+            var circle_marker_8c8cdab0073a41b2a44f815a6f60b8c6 = L.circleMarker(
+                [37.737316, -122.499397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_8ce069c2f02d435babdc42951bd6f164 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_623c8ef12067446db54ac4c1c15d6301 = $(`<div id="html_623c8ef12067446db54ac4c1c15d6301" style="width: 100.0%; height: 100.0%;">ULLOA ELEMENTARY</div>`)[0];
+                popup_8ce069c2f02d435babdc42951bd6f164.setContent(html_623c8ef12067446db54ac4c1c15d6301);
+            
+
+            circle_marker_8c8cdab0073a41b2a44f815a6f60b8c6.bindPopup(popup_8ce069c2f02d435babdc42951bd6f164)
+            ;
+
+            
+        
+    
+            var circle_marker_496e729678f24078b6ba1b03a0ed3894 = L.circleMarker(
+                [37.712524, -122.409897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_9c500c43669345f9bcd3c6f1295fae3b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b06207acea7c4676be0c470b6300ffa1 = $(`<div id="html_b06207acea7c4676be0c470b6300ffa1" style="width: 100.0%; height: 100.0%;">VISITACION VALLEY ELEMENTARY</div>`)[0];
+                popup_9c500c43669345f9bcd3c6f1295fae3b.setContent(html_b06207acea7c4676be0c470b6300ffa1);
+            
+
+            circle_marker_496e729678f24078b6ba1b03a0ed3894.bindPopup(popup_9c500c43669345f9bcd3c6f1295fae3b)
+            ;
+
+            
+        
+    
+            var circle_marker_2fca64f963364f6dada3da482982456f = L.circleMarker(
+                [37.742874, -122.464348],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_e68bcd65902143fa87d960e231f4b27a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0587167c459343999eeb51bc39a5e64c = $(`<div id="html_0587167c459343999eeb51bc39a5e64c" style="width: 100.0%; height: 100.0%;">WEST PORTAL ELEMENTARY</div>`)[0];
+                popup_e68bcd65902143fa87d960e231f4b27a.setContent(html_0587167c459343999eeb51bc39a5e64c);
+            
+
+            circle_marker_2fca64f963364f6dada3da482982456f.bindPopup(popup_e68bcd65902143fa87d960e231f4b27a)
+            ;
+
+            
+        
+    
+            var circle_marker_17e08861363448f58bf2d9d3d2baabfe = L.circleMarker(
+                [37.750301, -122.496666],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_af50d18f67b14971bd9b76f28934d079 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af71dad25b66477f82921e0355b4e802 = $(`<div id="html_af71dad25b66477f82921e0355b4e802" style="width: 100.0%; height: 100.0%;">GIANNINI (A.P.) MIDDLE</div>`)[0];
+                popup_af50d18f67b14971bd9b76f28934d079.setContent(html_af71dad25b66477f82921e0355b4e802);
+            
+
+            circle_marker_17e08861363448f58bf2d9d3d2baabfe.bindPopup(popup_af50d18f67b14971bd9b76f28934d079)
+            ;
+
+            
+        
+    
+            var circle_marker_0a4a8175dccd4faa9b8ab0df7dd8bd8f = L.circleMarker(
+                [37.804569, -122.410965],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_fca8378b90194afda8b6c9cab2e34728 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e3a9e8a895934a60ad14b1fbe3254a03 = $(`<div id="html_e3a9e8a895934a60ad14b1fbe3254a03" style="width: 100.0%; height: 100.0%;">FRANCISCO MIDDLE</div>`)[0];
+                popup_fca8378b90194afda8b6c9cab2e34728.setContent(html_e3a9e8a895934a60ad14b1fbe3254a03);
+            
+
+            circle_marker_0a4a8175dccd4faa9b8ab0df7dd8bd8f.bindPopup(popup_fca8378b90194afda8b6c9cab2e34728)
+            ;
+
+            
+        
+    
+            var circle_marker_db7f15568ce14c25990b465a6f281f69 = L.circleMarker(
+                [37.745556, -122.468964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_62c124fabb67444eba9d1102e22df321 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_83ff8a67b50b4ffb9ece01e37e97917d = $(`<div id="html_83ff8a67b50b4ffb9ece01e37e97917d" style="width: 100.0%; height: 100.0%;">HOOVER (HERBERT) MIDDLE</div>`)[0];
+                popup_62c124fabb67444eba9d1102e22df321.setContent(html_83ff8a67b50b4ffb9ece01e37e97917d);
+            
+
+            circle_marker_db7f15568ce14c25990b465a6f281f69.bindPopup(popup_62c124fabb67444eba9d1102e22df321)
+            ;
+
+            
+        
+    
+            var circle_marker_76e308218e2b45438cbbaafa1c2e89b2 = L.circleMarker(
+                [37.72131, -122.443184],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_71646ae35ebd4c2585e0af4a8eab7f65 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_415baed2ee6b48edb4830743f28cdbc0 = $(`<div id="html_415baed2ee6b48edb4830743f28cdbc0" style="width: 100.0%; height: 100.0%;">DENMAN (JAMES) MIDDLE</div>`)[0];
+                popup_71646ae35ebd4c2585e0af4a8eab7f65.setContent(html_415baed2ee6b48edb4830743f28cdbc0);
+            
+
+            circle_marker_76e308218e2b45438cbbaafa1c2e89b2.bindPopup(popup_71646ae35ebd4c2585e0af4a8eab7f65)
+            ;
+
+            
+        
+    
+            var circle_marker_abceb6c2efc042e1825e7805eec3fb8d = L.circleMarker(
+                [37.727741, -122.405807],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0a37255b3fde4cdaafdd1d131a12142a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_87a7eb4b76264f1d8507d94815e3b581 = $(`<div id="html_87a7eb4b76264f1d8507d94815e3b581" style="width: 100.0%; height: 100.0%;">KING JR. (MARTIN LUTHER) ACADEMIC MIDDLE</div>`)[0];
+                popup_0a37255b3fde4cdaafdd1d131a12142a.setContent(html_87a7eb4b76264f1d8507d94815e3b581);
+            
+
+            circle_marker_abceb6c2efc042e1825e7805eec3fb8d.bindPopup(popup_0a37255b3fde4cdaafdd1d131a12142a)
+            ;
+
+            
+        
+    
+            var circle_marker_84ff6069a5ed4b1b975ea2512b7e409a = L.circleMarker(
+                [37.78228, -122.458351],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_1772f441d92a469baa4d41802da3c23b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1ee34144e755442cb954b80532690209 = $(`<div id="html_1ee34144e755442cb954b80532690209" style="width: 100.0%; height: 100.0%;">ROOSEVELT MIDDLE</div>`)[0];
+                popup_1772f441d92a469baa4d41802da3c23b.setContent(html_1ee34144e755442cb954b80532690209);
+            
+
+            circle_marker_84ff6069a5ed4b1b975ea2512b7e409a.bindPopup(popup_1772f441d92a469baa4d41802da3c23b)
+            ;
+
+            
+        
+    
+            var circle_marker_b2bc4bfb0e5e464c88d4d414c6ead0c8 = L.circleMarker(
+                [37.715744, -122.412079],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_a2d91a4a6f784a0faed2482ffe67f418 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c3d46be64df401c897be97aa7d9d160 = $(`<div id="html_9c3d46be64df401c897be97aa7d9d160" style="width: 100.0%; height: 100.0%;">VISITACION VALLEY MIDDLE</div>`)[0];
+                popup_a2d91a4a6f784a0faed2482ffe67f418.setContent(html_9c3d46be64df401c897be97aa7d9d160);
+            
+
+            circle_marker_b2bc4bfb0e5e464c88d4d414c6ead0c8.bindPopup(popup_a2d91a4a6f784a0faed2482ffe67f418)
+            ;
+
+            
+        
+    
+            var circle_marker_b243c308e86b4b8aa9154978a14bfa6d = L.circleMarker(
+                [37.729672, -122.465782],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_ae9e01c0a780408ea253466099e56ecd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c831d3341224dbaa919d8221c0a3fd4 = $(`<div id="html_9c831d3341224dbaa919d8221c0a3fd4" style="width: 100.0%; height: 100.0%;">APTOS MIDDLE</div>`)[0];
+                popup_ae9e01c0a780408ea253466099e56ecd.setContent(html_9c831d3341224dbaa919d8221c0a3fd4);
+            
+
+            circle_marker_b243c308e86b4b8aa9154978a14bfa6d.bindPopup(popup_ae9e01c0a780408ea253466099e56ecd)
+            ;
+
+            
+        
+    
+            var circle_marker_63c820867cca4702af2e6d64fb913f25 = L.circleMarker(
+                [37.763577, -122.429367],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_6e5fe01aa6234e1f9939a632195a5b5d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f709e4511b7647e2a018e132ec413d83 = $(`<div id="html_f709e4511b7647e2a018e132ec413d83" style="width: 100.0%; height: 100.0%;">EVERETT MIDDLE</div>`)[0];
+                popup_6e5fe01aa6234e1f9939a632195a5b5d.setContent(html_f709e4511b7647e2a018e132ec413d83);
+            
+
+            circle_marker_63c820867cca4702af2e6d64fb913f25.bindPopup(popup_6e5fe01aa6234e1f9939a632195a5b5d)
+            ;
+
+            
+        
+    
+            var circle_marker_7d6383826995444d84026eee3fb712ac = L.circleMarker(
+                [37.753033, -122.420181],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0214d119388b4651842cc4a653415730 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_260f783a68ba402d891aa74ede69ddd3 = $(`<div id="html_260f783a68ba402d891aa74ede69ddd3" style="width: 100.0%; height: 100.0%;">BUENA VISTA/ HORACE MANN K-8</div>`)[0];
+                popup_0214d119388b4651842cc4a653415730.setContent(html_260f783a68ba402d891aa74ede69ddd3);
+            
+
+            circle_marker_7d6383826995444d84026eee3fb712ac.bindPopup(popup_0214d119388b4651842cc4a653415730)
+            ;
+
+            
+        
+    
+            var circle_marker_815d0ab57830461aa6c9b925542d3265 = L.circleMarker(
+                [37.749363, -122.432785],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_ba028f5676d44ff58533c57e28bfdbcc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d487c1ad10564c8693b9c45455c062df = $(`<div id="html_d487c1ad10564c8693b9c45455c062df" style="width: 100.0%; height: 100.0%;">LICK (JAMES) MIDDLE</div>`)[0];
+                popup_ba028f5676d44ff58533c57e28bfdbcc.setContent(html_d487c1ad10564c8693b9c45455c062df);
+            
+
+            circle_marker_815d0ab57830461aa6c9b925542d3265.bindPopup(popup_ba028f5676d44ff58533c57e28bfdbcc)
+            ;
+
+            
+        
+    
+            var circle_marker_ab7816df77d044cfac709c48f0bfbf1e = L.circleMarker(
+                [37.801827, -122.435478],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_f35a6254c3c3475d9456e2bf45e654c3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8db60879f2ef4559a7dec9557b433e4a = $(`<div id="html_8db60879f2ef4559a7dec9557b433e4a" style="width: 100.0%; height: 100.0%;">MARINA MIDDLE</div>`)[0];
+                popup_f35a6254c3c3475d9456e2bf45e654c3.setContent(html_8db60879f2ef4559a7dec9557b433e4a);
+            
+
+            circle_marker_ab7816df77d044cfac709c48f0bfbf1e.bindPopup(popup_f35a6254c3c3475d9456e2bf45e654c3)
+            ;
+
+            
+        
+    
+            var circle_marker_283e47618e4346a084062b59625ec27a = L.circleMarker(
+                [37.780865, -122.489624],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_87bf4c3285a042be854c21e1c0c906d0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dbd36a62456c4f05ba5e0856df010c52 = $(`<div id="html_dbd36a62456c4f05ba5e0856df010c52" style="width: 100.0%; height: 100.0%;">PRESIDIO MIDDLE</div>`)[0];
+                popup_87bf4c3285a042be854c21e1c0c906d0.setContent(html_dbd36a62456c4f05ba5e0856df010c52);
+            
+
+            circle_marker_283e47618e4346a084062b59625ec27a.bindPopup(popup_87bf4c3285a042be854c21e1c0c906d0)
+            ;
+
+            
+        
+    
+            var circle_marker_4ffa775349c04c088b96364d99b1a665 = L.circleMarker(
+                [37.794769, -122.40406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0756d19a75624598b83ec6ee0f137713 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b839bde937494b2cbc21fe539b40ee28 = $(`<div id="html_b839bde937494b2cbc21fe539b40ee28" style="width: 100.0%; height: 100.0%;">CHINESE EDUCATION CENTER</div>`)[0];
+                popup_0756d19a75624598b83ec6ee0f137713.setContent(html_b839bde937494b2cbc21fe539b40ee28);
+            
+
+            circle_marker_4ffa775349c04c088b96364d99b1a665.bindPopup(popup_0756d19a75624598b83ec6ee0f137713)
+            ;
+
+            
+        
+    
+            var circle_marker_1f37ec7ae9ee44d98ddde2e738cfefcd = L.circleMarker(
+                [37.742203, -122.431435],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_7b444581a6a74b2e82ad97f317ff7f5b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_51e297c828f449da9764e43b74a2f594 = $(`<div id="html_51e297c828f449da9764e43b74a2f594" style="width: 100.0%; height: 100.0%;">MISSION EDUCATION CENTER</div>`)[0];
+                popup_7b444581a6a74b2e82ad97f317ff7f5b.setContent(html_51e297c828f449da9764e43b74a2f594);
+            
+
+            circle_marker_1f37ec7ae9ee44d98ddde2e738cfefcd.bindPopup(popup_7b444581a6a74b2e82ad97f317ff7f5b)
+            ;
+
+            
+        
+    
+            var circle_marker_4589d9c5fbd54d7db68cac8e9ff34317 = L.circleMarker(
+                [37.75481, -122.443222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_113fc419c4b149f4a17be7d4ed7003d5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a4e30e024b5b4e9d86f4cd1008e48234 = $(`<div id="html_a4e30e024b5b4e9d86f4cd1008e48234" style="width: 100.0%; height: 100.0%;">ROOFTOP ELEMENTARY</div>`)[0];
+                popup_113fc419c4b149f4a17be7d4ed7003d5.setContent(html_a4e30e024b5b4e9d86f4cd1008e48234);
+            
+
+            circle_marker_4589d9c5fbd54d7db68cac8e9ff34317.bindPopup(popup_113fc419c4b149f4a17be7d4ed7003d5)
+            ;
+
+            
+        
+    
+            var circle_marker_7b899ba2293e43fda92f4d115c7df491 = L.circleMarker(
+                [37.726105, -122.432136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_de110548212f43c8a0eb0057a4264e09 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_813aba5a8d894892b6dcdb70ba552bce = $(`<div id="html_813aba5a8d894892b6dcdb70ba552bce" style="width: 100.0%; height: 100.0%;">SAN FRANCISCO COMMUNITY ALTERNATIVE</div>`)[0];
+                popup_de110548212f43c8a0eb0057a4264e09.setContent(html_813aba5a8d894892b6dcdb70ba552bce);
+            
+
+            circle_marker_7b899ba2293e43fda92f4d115c7df491.bindPopup(popup_de110548212f43c8a0eb0057a4264e09)
+            ;
+
+            
+        
+    
+            var circle_marker_93569bafeb0147d388b72c3cb8c33a02 = L.circleMarker(
+                [37.731667, -122.385338],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_7baec70eed504bfa9e170cf660540122 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_348edff91beb40f19fc7acbb58ce9338 = $(`<div id="html_348edff91beb40f19fc7acbb58ce9338" style="width: 100.0%; height: 100.0%;">CARVER (GEORGE WASHINGTON) ELEMENTARY</div>`)[0];
+                popup_7baec70eed504bfa9e170cf660540122.setContent(html_348edff91beb40f19fc7acbb58ce9338);
+            
+
+            circle_marker_93569bafeb0147d388b72c3cb8c33a02.bindPopup(popup_7baec70eed504bfa9e170cf660540122)
+            ;
+
+            
+        
+    
+            var circle_marker_9f01ee27b826486ab066673546d27513 = L.circleMarker(
+                [37.773884, -122.450264],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0b079efe79884ae9a401624899650e59 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_876a252d7ce044ee8e1550b33ba543f3 = $(`<div id="html_876a252d7ce044ee8e1550b33ba543f3" style="width: 100.0%; height: 100.0%;">NEW TRADITIONS ELEMENTARY</div>`)[0];
+                popup_0b079efe79884ae9a401624899650e59.setContent(html_876a252d7ce044ee8e1550b33ba543f3);
+            
+
+            circle_marker_9f01ee27b826486ab066673546d27513.bindPopup(popup_0b079efe79884ae9a401624899650e59)
+            ;
+
+            
+        
+    
+            var circle_marker_a16a9f7868ca45799c49ab35cb1936f7 = L.circleMarker(
+                [37.756741, -122.41262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_9d236506101f482a9ce609628b5e996b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_46e901e076db43d8ac2fe6a0ec0fbf36 = $(`<div id="html_46e901e076db43d8ac2fe6a0ec0fbf36" style="width: 100.0%; height: 100.0%;">MOSCONE (GEORGE R.) ELEMENTARY</div>`)[0];
+                popup_9d236506101f482a9ce609628b5e996b.setContent(html_46e901e076db43d8ac2fe6a0ec0fbf36);
+            
+
+            circle_marker_a16a9f7868ca45799c49ab35cb1936f7.bindPopup(popup_9d236506101f482a9ce609628b5e996b)
+            ;
+
+            
+        
+    
+            var circle_marker_225d9e7b10124e888e7b9c96b1498b32 = L.circleMarker(
+                [37.787201, -122.458015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_adc42359f8d8401f8260ed16ac875a93 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_914c90d6cc9b4166b6af1b465ca24b1b = $(`<div id="html_914c90d6cc9b4166b6af1b465ca24b1b" style="width: 100.0%; height: 100.0%;">LILIENTHAL (CLAIRE) ELEMENTARY</div>`)[0];
+                popup_adc42359f8d8401f8260ed16ac875a93.setContent(html_914c90d6cc9b4166b6af1b465ca24b1b);
+            
+
+            circle_marker_225d9e7b10124e888e7b9c96b1498b32.bindPopup(popup_adc42359f8d8401f8260ed16ac875a93)
+            ;
+
+            
+        
+    
+            var circle_marker_5e7bb062ce664efbacc885a1031dbf57 = L.circleMarker(
+                [37.731796, -122.39389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_c1df526ed094431285448e957abed00a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5291ed36e97242aaab28b3796c9c6dad = $(`<div id="html_5291ed36e97242aaab28b3796c9c6dad" style="width: 100.0%; height: 100.0%;">DREW (CHARLES) COLLEGE PREPARATORY ACADE</div>`)[0];
+                popup_c1df526ed094431285448e957abed00a.setContent(html_5291ed36e97242aaab28b3796c9c6dad);
+            
+
+            circle_marker_5e7bb062ce664efbacc885a1031dbf57.bindPopup(popup_c1df526ed094431285448e957abed00a)
+            ;
+
+            
+        
+    
+            var circle_marker_3db2964ab6a547aabd9018dda43bf541 = L.circleMarker(
+                [37.779804, -122.436073],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_23679b3c394c4979b60924f06cfe947e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c79834e4357e4527b2e6078210361ae7 = $(`<div id="html_c79834e4357e4527b2e6078210361ae7" style="width: 100.0%; height: 100.0%;">CREATIVE ARTS CHARTER</div>`)[0];
+                popup_23679b3c394c4979b60924f06cfe947e.setContent(html_c79834e4357e4527b2e6078210361ae7);
+            
+
+            circle_marker_3db2964ab6a547aabd9018dda43bf541.bindPopup(popup_23679b3c394c4979b60924f06cfe947e)
+            ;
+
+            
+        
+    
+            var circle_marker_1c2e241e032e4dd0b3391843b06b3223 = L.circleMarker(
+                [37.758965, -122.469681],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_e9492b4196144faebe807aa1a82d3298 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8ec36551c04243b08db02990bb41970f = $(`<div id="html_8ec36551c04243b08db02990bb41970f" style="width: 100.0%; height: 100.0%;">YU (ALICE FONG) ELEMENTARY</div>`)[0];
+                popup_e9492b4196144faebe807aa1a82d3298.setContent(html_8ec36551c04243b08db02990bb41970f);
+            
+
+            circle_marker_1c2e241e032e4dd0b3391843b06b3223.bindPopup(popup_e9492b4196144faebe807aa1a82d3298)
+            ;
+
+            
+        
+    
+            var circle_marker_faab5ab3b79344f3a06eaee9cdb78753 = L.circleMarker(
+                [37.798611, -122.403221],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_74bb5515839e4a578c247d3bac1d3c7f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9fa92cf5297c4e979f86294e099fec6d = $(`<div id="html_9fa92cf5297c4e979f86294e099fec6d" style="width: 100.0%; height: 100.0%;">CHIN (JOHN YEHALL) ELEMENTARY</div>`)[0];
+                popup_74bb5515839e4a578c247d3bac1d3c7f.setContent(html_9fa92cf5297c4e979f86294e099fec6d);
+            
+
+            circle_marker_faab5ab3b79344f3a06eaee9cdb78753.bindPopup(popup_74bb5515839e4a578c247d3bac1d3c7f)
+            ;
+
+            
+        
+    
+            var circle_marker_16dc642ee4394190b10897092ea49437 = L.circleMarker(
+                [37.750523, -122.499153],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_8e42430ca544434aa6955daef41d0c71 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3bdd4ddddae64b85b6124017a6ba8d16 = $(`<div id="html_3bdd4ddddae64b85b6124017a6ba8d16" style="width: 100.0%; height: 100.0%;">SUNSET ELEMENTARY</div>`)[0];
+                popup_8e42430ca544434aa6955daef41d0c71.setContent(html_3bdd4ddddae64b85b6124017a6ba8d16);
+            
+
+            circle_marker_16dc642ee4394190b10897092ea49437.bindPopup(popup_8e42430ca544434aa6955daef41d0c71)
+            ;
+
+            
+        
+    
+            var circle_marker_f064b1be4e524ea5a8d0bf0ee1d81f1a = L.circleMarker(
+                [37.781796, -122.419777],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0c058bedc39e48bc9e19818ac8b6b8b1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_957fec2a4b01403cbbaa0b9930c05b9c = $(`<div id="html_957fec2a4b01403cbbaa0b9930c05b9c" style="width: 100.0%; height: 100.0%;">TENDERLOIN COMMUNITY</div>`)[0];
+                popup_0c058bedc39e48bc9e19818ac8b6b8b1.setContent(html_957fec2a4b01403cbbaa0b9930c05b9c);
+            
+
+            circle_marker_f064b1be4e524ea5a8d0bf0ee1d81f1a.bindPopup(popup_0c058bedc39e48bc9e19818ac8b6b8b1)
+            ;
+
+            
+        
+    
+            var circle_marker_41cafa20e7554f8e84390fa7a4226ba0 = L.circleMarker(
+                [37.736477, -122.399574],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_47cf535e39db425b870f770bf529a554 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f3a6376f28914f19895391eb70ce8334 = $(`<div id="html_f3a6376f28914f19895391eb70ce8334" style="width: 100.0%; height: 100.0%;">BROWN JR. (WILLIE L) MIDDLE</div>`)[0];
+                popup_47cf535e39db425b870f770bf529a554.setContent(html_f3a6376f28914f19895391eb70ce8334);
+            
+
+            circle_marker_41cafa20e7554f8e84390fa7a4226ba0.bindPopup(popup_47cf535e39db425b870f770bf529a554)
+            ;
+
+            
+        
+    
+            var circle_marker_c218e4fa81fb4a6cb844e4d2deb0befd = L.circleMarker(
+                [37.745316, -122.44883],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_25e64f46ac8f4e99b754db9ac7053609 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8821f297bbda49b88d646cdabc667ecf = $(`<div id="html_8821f297bbda49b88d646cdabc667ecf" style="width: 100.0%; height: 100.0%;">ASAWA (RUTH) SF SCH OF THE ARTS, A PUBLIC SCHOOL</div>`)[0];
+                popup_25e64f46ac8f4e99b754db9ac7053609.setContent(html_8821f297bbda49b88d646cdabc667ecf);
+            
+
+            circle_marker_c218e4fa81fb4a6cb844e4d2deb0befd.bindPopup(popup_25e64f46ac8f4e99b754db9ac7053609)
+            ;
+
+            
+        
+    
+            var circle_marker_dfa0bc4446854b9bbc9c3b39616cc10a = L.circleMarker(
+                [37.753288, -122.399193],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_0b03c27cfa964a1aa12dc75adc6bf475 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_13f28cb374984fa39f62bf9a2907fae6 = $(`<div id="html_13f28cb374984fa39f62bf9a2907fae6" style="width: 100.0%; height: 100.0%;">KING (THOMAS STARR) ELEMENTARY</div>`)[0];
+                popup_0b03c27cfa964a1aa12dc75adc6bf475.setContent(html_13f28cb374984fa39f62bf9a2907fae6);
+            
+
+            circle_marker_dfa0bc4446854b9bbc9c3b39616cc10a.bindPopup(popup_0b03c27cfa964a1aa12dc75adc6bf475)
+            ;
+
+            
+        
+    
+            var circle_marker_5293654ec37d41298c2de95b25b42d49 = L.circleMarker(
+                [37.731796, -122.39389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_b419de68776d4800b8b2c3b419d69bff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_59fda46926614f0ebd458fca57c2fbb3 = $(`<div id="html_59fda46926614f0ebd458fca57c2fbb3" style="width: 100.0%; height: 100.0%;">DREW (CHARLES) COLLEGE PREPARATORY ACADEMY</div>`)[0];
+                popup_b419de68776d4800b8b2c3b419d69bff.setContent(html_59fda46926614f0ebd458fca57c2fbb3);
+            
+
+            circle_marker_5293654ec37d41298c2de95b25b42d49.bindPopup(popup_b419de68776d4800b8b2c3b419d69bff)
+            ;
+
+            
+        
+    
+            var circle_marker_b4ff7bbceacc4c2ca0be2cbd041b8c38 = L.circleMarker(
+                [37.754467, -122.426041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_7f8d5b37ae514deb8d1fe0ead2f6365a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d5b7f643a4a341f5a3b0fc3a95bcc196 = $(`<div id="html_d5b7f643a4a341f5a3b0fc3a95bcc196" style="width: 100.0%; height: 100.0%;">THOMAS EDISON CHARTER ACADEMY</div>`)[0];
+                popup_7f8d5b37ae514deb8d1fe0ead2f6365a.setContent(html_d5b7f643a4a341f5a3b0fc3a95bcc196);
+            
+
+            circle_marker_b4ff7bbceacc4c2ca0be2cbd041b8c38.bindPopup(popup_7f8d5b37ae514deb8d1fe0ead2f6365a)
+            ;
+
+            
+        
+    
+            var circle_marker_455d95a5b68a4ac2910c7990b2a68a8a = L.circleMarker(
+                [37.740433, -122.425011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_d38181629e624e7186dfd5a5e57630d4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_69db3b6ce0074a42bc474f3c5382a343 = $(`<div id="html_69db3b6ce0074a42bc474f3c5382a343" style="width: 100.0%; height: 100.0%;">HUERTA (DOLORES) ELEMENTARY</div>`)[0];
+                popup_d38181629e624e7186dfd5a5e57630d4.setContent(html_69db3b6ce0074a42bc474f3c5382a343);
+            
+
+            circle_marker_455d95a5b68a4ac2910c7990b2a68a8a.bindPopup(popup_d38181629e624e7186dfd5a5e57630d4)
+            ;
+
+            
+        
+    
+            var circle_marker_09d2fe3d4abb43c58036e1e7882c03f7 = L.circleMarker(
+                [37.794769, -122.40406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "black",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1,
+  "stroke": true,
+  "weight": 4
+}
+                )
+                .addTo(map_2cef95e920014fcfb49f4a0dfdc20685);
+            
+    
+            var popup_9a72cf924b6541d0b3f723b98ff3178b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a8004c07b93d4c549cf600e2ff6ab1d3 = $(`<div id="html_a8004c07b93d4c549cf600e2ff6ab1d3" style="width: 100.0%; height: 100.0%;">LEE (EDWIN AND ANITA) NEWCOMER</div>`)[0];
+                popup_9a72cf924b6541d0b3f723b98ff3178b.setContent(html_a8004c07b93d4c549cf600e2ff6ab1d3);
+            
+
+            circle_marker_09d2fe3d4abb43c58036e1e7882c03f7.bindPopup(popup_9a72cf924b6541d0b3f723b98ff3178b)
+            ;
+
+            
+        
+</script>
