@@ -34,6 +34,8 @@ There is a general upwards trend of the MSS over time for San Francisco. When lo
 
 Additionally, a choropleth of the Mean Scale Scores of each zip code is shown below. Each dot represents a school, which can be clicked on to find the specific school. 
 
+Mouse over the zip codes to see the Mean Scale Score and the zip code. 
+
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
   <iframe src="/images/MSS_all_years.html" frameborder="0" width="100%" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -48,7 +50,7 @@ Next, we look at the scores by the zip code over the years in the choropleth, to
 
 ## Mean Scale Score
 
-First, we look at the Mean Scale Score. 
+First, we look at the Mean Scale Score. Mouse over to see the zip codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -64,7 +66,7 @@ Next, we will examine the percent of students at the different standard levels.
 
 ### Standard exceeded
 
-Time sliding choropleth showing percentage of students exceeding the standards. 
+Time sliding choropleth showing percentage of students exceeding the standards. Mouse over to see the zip codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -76,7 +78,7 @@ Here, the divide is much more stark than the Mean Scale Score would indicate. As
 
 ### Standard met
 
-Time sliding choropleth showing percentage of students meeting the standards. 
+Time sliding choropleth showing percentage of students meeting the standards. Mouse over to see the zip codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -88,7 +90,7 @@ While the divide is still visible, it is not nearly as strong as it is with the 
 
 ### Standard nearly met
 
-Time sliding choropleth showing percentage of students nearly meeting the standards. 
+Time sliding choropleth showing percentage of students nearly meeting the standards. Mouse over to see the zip codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -100,7 +102,7 @@ Here again, while the divide is visible, it is not extreme.
 
 ### Standard not met
 
-Time sliding choropleth showing percentage of students not meeting the standards. 
+Time sliding choropleth showing percentage of students not meeting the standards. Mouse over to see the zip codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -111,7 +113,7 @@ Time sliding choropleth showing percentage of students not meeting the standards
 This one is interesting, as there is only one school performing extremely poorly in this metric, Life Learning Academy Charter on Treasure Island. Upon further research, it seems this school is especially for the disadvantaged and those who have had difficulty in school, which explains the abysmal performance on the CAASPP. 
 
 ### Standard met and above
-Time sliding choropleth showing percentage of students meeting or exceeding the standards. Remember that this is a combination of exceed and met. 
+Time sliding choropleth showing percentage of students meeting or exceeding the standards. Remember that this is a combination of exceed and met. Mouse over to see the zip codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -124,11 +126,11 @@ Again, the divide is extreme, likely mostly from the standard exceeded group.
 
 # Making connections
 
-Now that we have had a look at the performances of the schools, we can examine the geographical data on socio-economic factors to see if there are any correlations. 
+Now that we have had a look at the performances of the schools, we can examine the geographical data on socio-economic factors to see if there are any correlations. Mouse over to see the zip codes. 
 
 ## Income
 
-Time sliding choropleth showing income of different 'tracts' (an area of land used by the US Census) from 2015-2019. 
+Time sliding choropleth showing income of different 'tracts' (an area of land used by the US Census) from 2015-2019. Mouse over to see the tract codes. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
@@ -144,13 +146,7 @@ Additionally, in general, the income increases drastically in the city, likely d
 
 ## Ethnicity
 
-Choropleth showing the majority ethnicity of each tract of land. 
-
-In the legend, values of:
-- 1-1.5 corresponds to white
-- 2.0-2.5 corresponds to Asian
-- 3-3.5 corresponds to black
-- 3.5-4 corresponds to Hispanic
+Choropleth showing the majority ethnicity of each tract of land. Mouse over to see the tract name and the majority ethnicity. 
 
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
